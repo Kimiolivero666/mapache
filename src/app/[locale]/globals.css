@@ -1,0 +1,13 @@
+:root {
+  --blanco: #f4f9fc;
+  --celeste: #1ba399;
+  --naranja: #FF9500;
+  --azul: #0f2a3f;
+  --celeste-oscuro:#627D98;
+}
+
+/* src/app/globals.css o cualquier .module.css */
+.customTitle {
+  font-family: var(--font-ibm-plex), sans-serif;
+  font-weight: 700;
+}

@@ -1,0 +1,220 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between; /* Logo izq | Espacio | Botones der */
+  align-items: center;
+  padding: 0 5%;
+  background-color: var(--negro);
+  z-index: 1000;
+  box-sizing: border-box;
+  height: 80px;
+}
+
+/* --- LOGO --- */
+.logo {
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: white;
+  flex: 0 1 auto;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo span {
+  color: var(--naranja);
+}
+
+.spanText {
+  color: white !important;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+/* --- LINKS ESCRITORIO (Centrados en pantalla) --- */
+.navLinks {
+  display: flex;
+  list-style: none;
+  gap: 2.5rem;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  position: relative;
+  padding: 5px 0;
+  transition: color 0.3s ease;
+}
+
+/* Línea de hover que nace del centro */
+.navLinks a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: var(--naranja);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.navLinks a:hover {
+  color: var(--naranja);
+}
+
+.navLinks a:hover::after {
+  width: 100%;
+}
+
+/* --- SECCIÓN DERECHA ESCRITORIO --- */
+.desktopRight {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  z-index: 1001;
+}
+
+/* --- BOTÓN IDIOMA Y DROPDOWN --- */
+.langContainer {
+  position: relative;
+}
+
+.languageBtn {
+  background-color: var(--naranja);
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.languageBtn:hover {
+  transform: translateY(-2px);
+  background-color: #ffaa33;
+  box-shadow: 0 4px 15px rgba(255, 149, 0, 0.4);
+}
+
+.languageMenu {
+  position: absolute;
+  top: 130%;
+  right: 0;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 12px;
+  overflow: hidden;
+  min-width: 130px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.languageMenu button {
+  display: block;
+  width: 100%;
+  padding: 12px 15px;
+  color: white;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-size: 0.9rem;
+}
+
+.languageMenu button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* --- ICONO INSTAGRAM --- */
+.instagramIcon {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+  display: inline-flex;
+}
+
+.instagramIcon:hover {
+  color: var(--naranja);
+  transform: scale(1.2) rotate(8deg);
+}
+
+/* --- MÓVIL --- */
+.menuButton {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+@media (max-width: 992px) {
+  .navLinks, .desktopRight {
+    display: none;
+  }
+
+  .menuButton {
+    display: flex;
+  }
+
+  .navContainerMobile {
+    position: absolute;
+    top: 0; /* Empieza desde arriba para cubrir todo si quieres, o desde 80px */
+    left: 0;
+    width: 100%;
+    height: 100vh; /* Ocupa toda la pantalla */
+    background-color: var(--negro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centrado vertical en pantalla completa */
+    padding: 2rem 0;
+    z-index: 1000;
+  }
+
+  .navLinksMobile {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  .navLinksMobile li {
+    margin: 2rem 0;
+  }
+
+  .navLinksMobile a {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .navLinksMobile a:hover {
+    color: var(--naranja);
+  }
+
+  .mobileBottomSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+}

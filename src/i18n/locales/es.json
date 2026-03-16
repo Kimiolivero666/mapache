@@ -1,0 +1,20 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "language": "Idioma",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "titleLine1": "Desarrollamos webs y sistemas que ayudan a negocios a ahorrar tiempo",
+    "titleLine2": "y vender mas",
+    "cta": "SOLICITAR AUDITORIA GRATUITA"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito"
+  }
+}

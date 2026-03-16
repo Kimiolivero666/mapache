@@ -1,0 +1,23 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --blanco: #ffffff;
+  --celeste: #1ba399;
+  --naranja: #FF9500;
+  --azul: #0f2a3f;
+  --celeste-oscuro:#627D98;
+  --negro:#1e1f24;
+}
+
+/* src/app/globals.css o cualquier .module.css */
+.customTitle {
+  font-family: var(--font-ibm-plex), sans-serif;
+  font-weight: 700;
+}
+

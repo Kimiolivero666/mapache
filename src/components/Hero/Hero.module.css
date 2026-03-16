@@ -1,0 +1,90 @@
+.hero {
+  background-color: var(--negro);
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden; /* Vital para que no salga scroll lateral */
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 100vh;
+  gap: 2rem;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 3rem;
+  z-index: 10;
+  position: relative;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: white;
+  line-height: 1.3;
+}
+
+.highlightWrapper {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  /* Aseguramos que el texto tenga un z-index superior al del AnimatedUnderline.
+     Como el underline tiene -1, con que este sea 1 ya queda por encima.
+  */
+  z-index: 1; 
+  padding: 0 5px; /* Espacio extra para que la línea no se vea cortada en las puntas */
+}
+
+
+
+
+
+
+
+
+.highlight {
+  color: var(--naranja);
+}
+
+.divider {
+  width: 80px;
+  height: 4px;
+  background-color: var(--naranja);
+  margin: 2rem 0;
+}
+
+.bottomLogo {
+  margin-top: 2rem;
+  opacity: 0.8;
+}
+
+.imageWrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.mainImage {
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
