@@ -13,24 +13,27 @@
   height: 80px;
 }
 
+.headerLeft {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 /* --- LOGO --- */
 .logo {
   font-weight: 800;
   font-size: 1.2rem;
   color: white;
   flex: 0 1 auto;
-  transition: opacity 0.3s ease;
+  transition: all 0.3s ease;
   cursor: pointer;
   z-index: 1001;
 }
 
 .logo:hover {
-  opacity: 0.8;
+  transform: rotate(-5deg) scale(1.05);
 }
 
-.logo span {
-  color: var(--naranja);
-}
 
 .spanText {
   color: white !important;
@@ -165,6 +168,11 @@
 }
 
 @media (max-width: 992px) {
+  .logo {
+    transform: scale(0.8);
+    transform-origin: left;
+  }
+
   .navLinks, .desktopRight {
     display: none;
   }

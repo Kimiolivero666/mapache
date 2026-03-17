@@ -1,90 +1,158 @@
+/* Hero.module.css (Correcciones implementadas) */
+
 .hero {
   background-color: var(--negro);
   min-height: 100vh;
   width: 100%;
-  overflow: hidden; /* Vital para que no salga scroll lateral */
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: center; /* Centra el contenido verticalmente en la vista */
+  overflow: visible;
+  z-index: 20;
+}
+
+/* Capa de fondo: Logo Mapache */
+.logoBg {
+  position: absolute;
+  width: 50%; 
+  height: 50%;
+  left: 30%; 
+  bottom: -10%; 
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.18;
+  filter: brightness(1.2);
+}
+
+.bgImage {
+  object-fit: contain;
+  object-position: left bottom;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 45% 55%;
   width: 100%;
-  height: 100vh;
+  max-width: 1600px; 
+  margin: 0 auto;
   gap: 2rem;
   align-items: center;
+  position: relative;
+  z-index: 2;
+  padding: 0 0 0 4rem; 
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 0 3rem;
-  z-index: 10;
-  position: relative;
+  transform: translateY(-60px); 
 }
 
 .title {
-  font-size: 3.5rem;
+  font-size: clamp(2.5rem, 4.5vw, 3.8rem);
   font-weight: 800;
   color: white;
-  line-height: 1.3;
+  line-height: 1.1;
 }
 
 .highlightWrapper {
   position: relative;
   display: inline-block;
   white-space: nowrap;
-  /* Aseguramos que el texto tenga un z-index superior al del AnimatedUnderline.
-     Como el underline tiene -1, con que este sea 1 ya queda por encima.
-  */
-  z-index: 1; 
-  padding: 0 5px; /* Espacio extra para que la línea no se vea cortada en las puntas */
-}
-
-
-
-
-
-
-
-
-.highlight {
-  color: var(--naranja);
-}
-
-.divider {
-  width: 80px;
-  height: 4px;
-  background-color: var(--naranja);
-  margin: 2rem 0;
-}
-
-.bottomLogo {
-  margin-top: 2rem;
-  opacity: 0.8;
+  color: white; 
 }
 
 .imageWrapper {
   position: relative;
-  height: 100%;
   width: 100%;
-  overflow: hidden;
-  border-radius: 16px;
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center; /* Centra la imagen verticalmente */
 }
 
 .mainImage {
   object-fit: contain;
-  object-position: center;
-  width: 100%;
-  height: 100%;
+  object-position: right center;
+  width: 100% !important;
+  height: auto !important;
+  position: relative !important;
+  max-height: 80vh; /* Limita la altura máxima de la imagen */
 }
 
-@media (max-width: 768px) {
+/* --- Responsive Design --- */
+
+/* Pantallas de tablets y más pequeñas */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr; /* Cambiamos a una sola columna */
+    padding: 0 2rem; /* Padding uniforme a los lados */
+    text-align: center; /* Centramos el texto */
+    gap: 1rem; /* Reducimos el espacio entre elementos */
+  }
+
+  .content {
+    transform: translateY(0); /* Reseteamos la transformación del texto */
+    order: 2; /* Movemos el texto debajo de la imagen */
+    margin-bottom: 4rem; /* Espacio al final de la sección */
+  }
+
   .title {
-    font-size: 2.5rem;
-    text-align: center;
+    font-size: clamp(2rem, 8vw, 2.8rem); /* Hacemos el texto más pequeño */
+  }
+
+  .imageWrapper {
+    order: 1; /* Movemos la imagen arriba del texto */
+    height: auto; /* La altura se ajustará al contenido */
+    justify-content: center; /* Centramos la imagen */
+    margin-top: 6rem; /* Empujamos la imagen un poco hacia abajo desde el nav */
+    max-height: 50vh;
+  }
+  
+  .mainImage {
+    object-position: center; /* Centramos la imagen en su contenedor */
+    max-height: 50vh; /* Reducimos la altura en tablets */
+  }
+
+  /* Sutil: El logo de fondo ahora aparece por arriba, más pequeño y con opacidad */
+  .logoBg {
+    width: 30%;
+    height: 30%;
+    left: 20%;
+    transform: translateX(-50%);
+    top: 6rem; /* Lo posicionamos cerca de la parte superior */
+    bottom: auto; /* Reseteamos 'bottom' */
+    opacity: 0.1; /* Mucho más sutil */
+  }
+
+  .bgImage {
+    object-position: center;
+  }
+}
+
+/* Pantallas móviles */
+@media (max-width: 767px) {
+  .hero {
+    min-height: 85vh; /* Hacemos la sección un poco más corta en móviles */
+    padding-bottom: 2rem;
+  }
+
+  .imageWrapper {
+    margin-top: 5rem; /* Ajustamos el margen para móviles */
+  }
+
+  .mainImage {
+    max-height: 40vh; /* La imagen es aún más pequeña en móviles */
+  }
+  
+  .content {
+    margin-bottom: 2rem;
+  }
+
+  .logoBg {
+    width: 40%;
+    height: 40%;
+    top: 40%;
+    opacity: 0.08; /* Aún más sutil si es necesario */
   }
 }

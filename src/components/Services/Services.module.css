@@ -1,0 +1,95 @@
+.servicesSection {
+  background-color: var(--negro);
+  padding: 120px 2rem;
+  color: white;
+  width: 100%;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.mainTitle {
+  text-align: center;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 900;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
+
+.mainTitle span {
+  color: var(--naranja);
+}
+
+.grid {
+  display: grid;
+  /* Grid de 3 columnas en desktop, 2 en tablet, 1 en móvil */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem; /* Gap pequeño para el estilo de bloques pegados */
+}
+
+.card {
+  background-color: #121212; /* Gris casi negro */
+  padding: 4rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+.highlighted {
+  background-color: var(--naranja);
+  color: #000;
+  border: none;
+}
+
+.iconWrapper {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.cardTitle {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.cardDescription {
+  font-size: 1rem;
+  line-height: 1.5;
+  opacity: 0.7;
+  font-weight: 500;
+}
+
+.highlighted .cardDescription {
+  opacity: 0.9;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* Interacción Senior: Hover sutil */
+.card:not(.highlighted):hover {
+  background-color: #1a1a1a;
+  border-color: var(--naranja);
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .mainTitle {
+    margin-bottom: 3rem;
+  }
+  .card {
+    padding: 3rem 2rem;
+  }
+}

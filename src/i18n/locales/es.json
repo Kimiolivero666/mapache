@@ -12,6 +12,36 @@
     "titleLine2": "y vender mas",
     "cta": "SOLICITAR AUDITORIA GRATUITA"
   },
+  "services": {
+    "title": "QUÉ ES LO QUE",
+    "titleHighlight": "PROVEEMOS?",
+    "items": {
+      "theme": {
+        "title": "Desarrollo de Temas",
+        "description": "Sitios web a medida con React y Next.js, priorizando rendimiento y réplicas exactas de Figma."
+      },
+      "custom": {
+        "title": "Código Personalizado",
+        "description": "Soluciones lógicas complejas, integraciones de API y sistemas a medida."
+      },
+      "design": {
+        "title": "Diseño UI/UX",
+        "description": "Diseños en Figma convertidos en réplicas exactas, enfocados en el usuario."
+      },
+      "cms": {
+        "title": "Integración CMS",
+        "description": "Gestión de contenido dinámica con Strapi para que tengas el control total."
+      },
+      "ecommerce": {
+        "title": "Soluciones E-commerce",
+        "description": "Tiendas online robustas y seguras para escalar tus ventas digitalmente."
+      },
+      "automation": {
+        "title": "Automatización",
+        "description": "Gestión de citas con Calendly y flujos de trabajo que ahorran tiempo."
+      }
+    }
+  },
   "common": {
     "loading": "Cargando...",
     "error": "Error",

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { Link } from '@/i18n/routing'; 
+import Image from 'next/image';
 import { HiMenuAlt3, HiX } from 'react-icons/hi';
 import { FaInstagram } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -42,9 +43,41 @@ const Navbar = () => {
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
     >
-      {/* 1. LOGO (Siempre a la izquierda) */}
-      <div className={styles.logo}>
-        NE<span>X</span>US <span className={styles.spanText}>DEV STUDIO</span>
+      <div className={styles.headerLeft}>
+        {/* 1. LOGO (Siempre a la izquierda) */}
+        <Link href="/" className={styles.logo}>
+          <Image
+            src="/images/mapache-logo.png"
+            alt="Mapache Logo"
+            width={180}
+            height={40}
+            priority
+          />
+        </Link>
+
+        {isMobile && (
+          <div className={styles.langContainer}>
+            <button className={styles.languageBtn} onClick={() => setShowLanguageMenu(!showLanguageMenu)}>
+              {locale.toUpperCase()}
+            </button>
+            <AnimatePresence>
+              {showLanguageMenu && (
+                <motion.div 
+                  className={styles.languageMenu}
+                  initial={{ opacity: 0, scale: 0.95 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0, scale: 0.95 }}
+                >
+                  {['es', 'en'].map((lng) => (
+                    <button key={lng} onClick={() => { changeLanguage(lng as 'es' | 'en'); setShowLanguageMenu(false); }}>
+                      {lng === 'es' ? 'Español' : 'English'}
+                    </button>
+                  ))}
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
+        )}
       </div>
 
       {/* 2. NAVEGACIÓN CENTRAL (Solo Desktop) */}
@@ -107,11 +140,9 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
+
             <div className={styles.mobileBottomSection}>
               <GetStartedButton />
-              <button className={styles.languageBtn} onClick={() => setShowLanguageMenu(!showLanguageMenu)}>
-                {locale.toUpperCase()}
-              </button>
               <a href="#" className={styles.instagramIcon}><FaInstagram /></a>
             </div>
           </motion.div>

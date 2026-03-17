@@ -9,7 +9,7 @@ const AnimatedUnderline = () => {
         position: "absolute", 
         width: "100%", 
         left: 0, 
-        bottom: "0px", // Ajustado para que roce la base de las letras
+        bottom: "-10px", // Ajustado para que roce la base de las letras
         zIndex: -1,    // Envía la línea por detrás del texto
         pointerEvents: "none" // Evita que la línea interfiera con clicks en el texto
       }}
