@@ -11,11 +11,11 @@ const Hero = () => {
 
   return (
     <section className={styles.hero}>
-      {/* El logo sutil ahora se controla principalmente por CSS para responsividad */}
+      {/* Background Logo - Optimizado */}
       <motion.div 
         className={styles.logoBg}
         initial={{ opacity: 0 }}
-        animate={{ opacity: 0.18 }} // La opacidad final se modula en el CSS
+        animate={{ opacity: 0.18 }}
         transition={{ duration: 1.5 }}
       >
         <Image
@@ -31,8 +31,8 @@ const Hero = () => {
         {/* Columna Izquierda: Texto */}
         <motion.div
           className={styles.content}
-          initial={{ opacity: 0, y: 20 }} // Inicia ligeramente abajo
-          animate={{ opacity: 1, y: 0 }} // Termina en su posición natural
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <h1 className={styles.title}>
@@ -52,12 +52,11 @@ const Hero = () => {
           transition={{ duration: 1, delay: 0.2 }}
         >
           <Image
-            src="/images/hero-work.png"
+            src="/images/hero-work.jpg"
             alt="Development work"
-            width={1200} // Proporciona un tamaño base para la calidad de la imagen
-            height={800}
+            fill
             priority
-            sizes="(max-width: 768px) 90vw, (max-width: 1024px) 80vw, 55vw"
+            sizes="(max-width: 1024px) 100vw, 55vw"
             className={styles.mainImage}
           />
         </motion.div>
