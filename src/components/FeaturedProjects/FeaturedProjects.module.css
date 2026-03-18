@@ -1,0 +1,86 @@
+.featuredProjects {
+  padding: 4rem 0;
+  background-color: #1a1a1a; /* Dark background from design */
+  color: #ffffff; /* White text for contrast */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  padding: 0 2rem;
+}
+
+.mainTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.subTitle {
+  font-size: 1.2rem;
+  color: #cccccc;
+}
+
+.viewAllButton {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.viewAllButton:hover {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.projectCard {
+  background-color: #2a2a2a; /* Slightly lighter dark for cards */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 200px; /* Fixed height for images */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--naranja); /* Yellow background from design */
+}
+
+.projectImage {
+  width: 70%; /* Adjust as needed to fit the phone mock-up */
+  height: auto;
+  display: block;
+  object-fit: contain; /* Ensures the whole image is visible */
+}
+
+.projectTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  color: #ffffff;
+}
+
+.projectType {
+  font-size: 1rem;
+  color: #cccccc;
+}

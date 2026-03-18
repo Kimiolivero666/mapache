@@ -13,32 +13,46 @@
     "cta": "REQUEST FREE AUDIT"
   },
   "services": {
-    "title": "WHAT DO WE",
-    "titleHighlight": "PROVIDE?",
+    "title": "WHAT WE",
+    "titleHighlight": "PROVIDE",
+    "subTitle": "High-impact digital solutions. Flawless design, efficient code.",
+    "contactBtn": "Get in touch",
     "items": {
       "theme": {
         "title": "Theme Development",
-        "description": "Custom-made websites with React and Next.js, prioritizing performance and SEO."
+        "description": "Tailor-made websites with React and Next.js, prioritizing performance and pixel-perfect Figma replicas."
       },
       "custom": {
-        "title": "Custom Coding",
-        "description": "Complex logic solutions, API integrations, and tailored management systems."
+        "title": "Custom Code",
+        "description": "Complex logical solutions, API integrations, and custom-built systems."
       },
       "design": {
-        "title": "UI/UX Design",
-        "description": "Figma designs converted into exact replicas, focused on user experience."
+        "title": "Interfaces that Convert",
+        "description": "We design intuitive and attractive digital experiences that improve your product's usability."
       },
       "cms": {
         "title": "CMS Integration",
-        "description": "Dynamic content management with Strapi or Sanity for total control."
+        "description": "Dynamic content management with Strapi to give you total control over your texts and images."
       },
       "ecommerce": {
-        "title": "Ecommerce Solutions",
-        "description": "Robust and secure online stores to scale your sales digitally."
+        "title": "E-commerce Solutions",
+        "description": "Robust and secure online stores to scale your sales and manage payments digitally."
       },
       "automation": {
         "title": "Automation",
-        "description": "Calendly appointment management and automated workflows to save time."
+        "description": "Appointment management with Calendly and automated workflows that save administrative time."
+      },
+      "branding": {
+        "title": "Unforgettable Brand DNA",
+        "description": "Complete visual systems, from the logo to the brand manual, defining your brand's essence."
+      },
+      "social": {
+        "title": "High-Impact Content",
+        "description": "Aesthetic Instagram feed design: Posts and Reels aligned with your visual identity."
+      },
+      "seo": {
+        "title": "Performance & SEO",
+        "description": "Deep technical optimization to make your site load instantly and scale in search engines."
       }
     }
   },

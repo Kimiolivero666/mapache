@@ -13,8 +13,10 @@
     "cta": "SOLICITAR AUDITORIA GRATUITA"
   },
   "services": {
-    "title": "QUÉ ES LO QUE",
-    "titleHighlight": "PROVEEMOS?",
+    "title": "LO QUE",
+    "titleHighlight": "OFRECEMOS",
+    "subTitle": "Soluciones digitales de alto impacto. Diseño impecable, código eficiente.",
+    "contactBtn": "Ponerse en contacto",
     "items": {
       "theme": {
         "title": "Desarrollo de Temas",
@@ -25,20 +27,32 @@
         "description": "Soluciones lógicas complejas, integraciones de API y sistemas a medida."
       },
       "design": {
-        "title": "Diseño UI/UX",
-        "description": "Diseños en Figma convertidos en réplicas exactas, enfocados en el usuario."
+        "title": "Interfaces que Convierten",
+        "description": "Diseñamos experiencias digitales intuitivas y atractivas que mejoran la usabilidad de tu producto."
       },
       "cms": {
         "title": "Integración CMS",
-        "description": "Gestión de contenido dinámica con Strapi para que tengas el control total."
+        "description": "Gestión de contenido dinámica con Strapi para que tengas el control total de tus textos e imágenes."
       },
       "ecommerce": {
         "title": "Soluciones E-commerce",
-        "description": "Tiendas online robustas y seguras para escalar tus ventas digitalmente."
+        "description": "Tiendas online robustas y seguras para escalar tus ventas y gestionar cobros digitalmente."
       },
       "automation": {
         "title": "Automatización",
-        "description": "Gestión de citas con Calendly y flujos de trabajo que ahorran tiempo."
+        "description": "Gestión de citas con Calendly y flujos de trabajo automatizados que ahorran tiempo administrativo."
+      },
+      "branding": {
+        "title": "DNA de Marca Inolvidable",
+        "description": "Sistemas visuales completos, desde el logotipo hasta el manual de marca, que definen tu esencia."
+      },
+      "social": {
+        "title": "Contenido de Alto Impacto",
+        "description": "Diseño de feeds estéticos para Instagram: Posteos y Reels alineados con tu identidad visual."
+      },
+      "seo": {
+        "title": "Rendimiento y SEO",
+        "description": "Optimización técnica profunda para que tu web cargue al instante y escale en los buscadores."
       }
     }
   },

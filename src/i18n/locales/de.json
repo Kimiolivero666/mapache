@@ -1,0 +1,69 @@
+{
+  "navbar": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "contact": "Kontakt",
+    "language": "Sprache",
+    "getStarted": "Loslegen"
+  },
+  "hero": {
+    "titleLine1": "Wir erstellen Websites und Systeme für Unternehmen,",
+    "titleLine2": "die mehr verkaufen möchten",
+    "cta": "KOSTENLOSE PRÜFUNG ANFORDERN"
+  },
+  "services": {
+    "title": "WAS",
+    "titleHighlight": "BIETEN WIR?",
+    "subtitle": "Wir kümmern uns um Marke, Design und Entwicklung, um Ihr Geschäft zu skalieren.",
+    "contactButton": "Kontakt aufnehmen",
+    "items": {
+      "theme": {
+        "title": "Theme-Entwicklung",
+        "description": "Maßgeschneiderte Websites mit React und Next.js, bei denen Leistung und exakte Figma-Nachbildungen im Vordergrund stehen."
+      },
+      "custom": {
+        "title": "Benutzerdefinierter Code",
+        "description": "Komplexe Logiklösungen, API-Integrationen und maßgeschneiderte Systeme."
+      },
+      "design": {
+        "title": "UI/UX-Design",
+        "description": "In Figma entworfene Designs, die in exakte Nachbildungen umgewandelt werden und auf den Benutzer ausgerichtet sind."
+      },
+      "cms": {
+        "title": "CMS-Integration",
+        "description": "Dynamisches Content-Management mit Strapi, damit Sie die volle Kontrolle haben."
+      },
+      "ecommerce": {
+        "title": "E-Commerce-Lösungen",
+        "description": "Robuste und sichere Online-Shops zur Skalierung Ihrer digitalen Verkäufe."
+      },
+      "automation": {
+        "title": "Automatisierung",
+        "description": "Terminverwaltung mit Calendly und zeitsparende Arbeitsabläufe."
+      }
+    }
+  },
+  "common": {
+    "loading": "Wird geladen...",
+    "error": "Fehler",
+    "success": "Erfolg"
+  },
+  "FeaturedProjects": {
+    "mainTitle": "Vorgestellte Projekte",
+    "subTitle": "Frühere Arbeiten",
+    "viewAllButton": "Alle ansehen",
+    "figmaTemplatesTitle": "Figma-Vorlagen",
+    "figmaTemplatesType": "Produkt-Website",
+    "youtuberDeveloperDesignerTitle": "Youtuber-Entwickler & Designer",
+    "youtuberDeveloperDesignerType": "Portfolio-Website",
+    "marthaWilsonTitle": "Martha Wilson",
+    "marthaWilsonType": "Portfolio-Website",
+    "bringingHopeTitle": "Hoffnung in die Welt bringen",
+    "bringingHopeType": "Community-Website",
+    "nftMarketTitle": "NFT-Marktplatz-Website",
+    "nftMarketType": "Webdesign",
+    "agencyWebsiteTitle": "Agentur-Website",
+    "agencyWebsiteType": "Webdesign und -entwicklung"
+  }
+}

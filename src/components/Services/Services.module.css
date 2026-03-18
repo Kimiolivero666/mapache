@@ -1,6 +1,6 @@
 .servicesSection {
   background-color: var(--negro);
-  padding: 120px 2rem;
+  padding: 140px 2rem;
   color: white;
   width: 100%;
 }
@@ -10,33 +10,81 @@
   margin: 0 auto;
 }
 
-.mainTitle {
+.headerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin-bottom: 6rem;
+}
+
+.mainTitle {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
   font-weight: 900;
-  margin-bottom: 5rem;
   text-transform: uppercase;
   letter-spacing: -2px;
+  margin-bottom: 1.5rem;
 }
 
 .mainTitle span {
   color: var(--naranja);
 }
 
+.subHeader {
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subTitle {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  opacity: 0.7;
+  font-weight: 400;
+  margin-bottom: 2.5rem;
+  text-wrap: balance;
+}
+
+.contactBtn {
+  background-color: transparent;
+  color: var(--naranja);
+  border: 1px solid var(--naranja);
+  padding: 1.1rem 2.8rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 50px;
+}
+
+.contactBtn:hover {
+  background-color: var(--naranja);
+  color: #000;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(255, 102, 0, 0.2);
+}
+
 .grid {
   display: grid;
-  /* Grid de 3 columnas en desktop, 2 en tablet, 1 en móvil */
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem; /* Gap pequeño para el estilo de bloques pegados */
+  gap: 1rem;
 }
 
 .card {
-  background-color: #121212; /* Gris casi negro */
+  background-color: #121212;
   padding: 4rem 2.5rem;
   display: flex;
   flex-direction: column;
   border: 1px solid rgba(255, 255, 255, 0.05);
   transition: all 0.3s ease;
+}
+
+.card:not(.highlighted):hover {
+  background-color: #1a1a1a;
+  border-color: var(--naranja);
 }
 
 .highlighted {
@@ -70,12 +118,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 
-/* Interacción Senior: Hover sutil */
-.card:not(.highlighted):hover {
-  background-color: #1a1a1a;
-  border-color: var(--naranja);
-}
-
+/* Media Queries */
 @media (max-width: 1024px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
@@ -83,13 +126,19 @@
 }
 
 @media (max-width: 768px) {
+  .servicesSection {
+    padding: 80px 1.5rem;
+  }
   .grid {
     grid-template-columns: 1fr;
   }
-  .mainTitle {
+  .headerContent {
     margin-bottom: 3rem;
   }
-  .card {
-    padding: 3rem 2rem;
+  .subTitle {
+    font-size: 1.1rem;
+  }
+  .contactBtn {
+    width: 100%;
   }
 }

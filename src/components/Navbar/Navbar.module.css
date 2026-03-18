@@ -28,8 +28,21 @@
   transition: all 0.3s ease;
   cursor: pointer;
   z-index: 1001;
+
+  /* --- Fix para el estiramiento --- */
+  align-self: center; /* Evita que el flex-parent lo estire verticalmente */
+  display: flex;      /* Para alinear icono y texto internamente si los tienes */
+  align-items: center;
+  height: fit-content; /* Asegura que solo ocupe el alto de su contenido */
 }
 
+/* Si tu logo es una imagen o SVG dentro de esa clase */
+.logo img, 
+.logo svg {
+  height: 100%;       /* O un alto fijo, ej: 40px */
+  width: auto;        /* Esto mantiene la proporción y evita el estiramiento */
+  display: block;
+}
 .logo:hover {
   transform: rotate(-5deg) scale(1.05);
 }
