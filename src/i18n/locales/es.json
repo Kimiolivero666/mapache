@@ -18,41 +18,45 @@
     "subTitle": "Soluciones digitales de alto impacto. Diseño impecable, código eficiente.",
     "contactBtn": "Ponerse en contacto",
     "items": {
-      "theme": {
-        "title": "Desarrollo de Temas",
-        "description": "Sitios web a medida con React y Next.js, priorizando rendimiento y réplicas exactas de Figma."
+      "theme": { "title": "Desarrollo de Temas", "description": "Sitios web a medida con React y Next.js, priorizando rendimiento y réplicas exactas de Figma." },
+      "custom": { "title": "Código Personalizado", "description": "Soluciones lógicas complejas, integraciones de API y sistemas a medida." },
+      "design": { "title": "Interfaces que Convierten", "description": "Diseñamos experiencias digitales intuitivas y atractivas que mejoran la usabilidad de tu producto." },
+      "cms": { "title": "Integración CMS", "description": "Gestión de contenido dinámica con Strapi para que tengas el control total de tus textos e imágenes." },
+      "ecommerce": { "title": "Soluciones E-commerce", "description": "Tiendas online robustas y seguras para escalar tus ventas y gestionar cobros digitalmente." },
+      "automation": { "title": "Automatización", "description": "Gestión de citas con Calendly y flujos de trabajo automatizados que ahorran tiempo administrativo." },
+      "branding": { "title": "DNA de Marca Inolvidable", "description": "Sistemas visuales completos, desde el logotipo hasta el manual de marca, que definen tu esencia." },
+      "social": { "title": "Estrategia Visual y Social", "description": "Identidad coherente y anuncios de alto impacto. Diseñamos redes sociales que construyen autoridad y multiplican tus ventas." },
+      "seo": { "title": "Rendimiento y SEO", "description": "Optimización técnica profunda para que tu web cargue al instante y escale en los buscadores." }
+    }
+  },
+  "projects": {
+    "title": "NUESTROS",
+    "titleHighlight": "PROYECTOS",
+    "subTitle": "Explora una selección de nuestros trabajos más recientes. Desde landing pages animadas hasta sistemas complejos.",
+    "items": {
+      "gestoria": {
+        "title": "Gestoría GCR",
+        "type": "Next.js / Strapi / Calendly"
       },
-      "custom": {
-        "title": "Código Personalizado",
-        "description": "Soluciones lógicas complejas, integraciones de API y sistemas a medida."
+      "aseguradora": {
+        "title": "Nani Seguros",
+        "type": "React / TypeScript / CSS"
       },
-      "design": {
-        "title": "Interfaces que Convierten",
-        "description": "Diseñamos experiencias digitales intuitivas y atractivas que mejoran la usabilidad de tu producto."
+      "restaurante": {
+        "title": "Restaurante Chimichurri",
+        "type": "Landing Page / Framer Motion"
       },
-      "cms": {
-        "title": "Integración CMS",
-        "description": "Gestión de contenido dinámica con Strapi para que tengas el control total de tus textos e imágenes."
+      "agencia": {
+        "title": "Agencia Litte",
+        "type": "Estrategia Digital / Branding / Diseño Web"
       },
-      "ecommerce": {
-        "title": "Soluciones E-commerce",
-        "description": "Tiendas online robustas y seguras para escalar tus ventas y gestionar cobros digitalmente."
+      "community": {
+        "title": "Sitio Comunitario",
+        "type": "Diseño Web"
       },
-      "automation": {
-        "title": "Automatización",
-        "description": "Gestión de citas con Calendly y flujos de trabajo automatizados que ahorran tiempo administrativo."
-      },
-      "branding": {
-        "title": "DNA de Marca Inolvidable",
-        "description": "Sistemas visuales completos, desde el logotipo hasta el manual de marca, que definen tu esencia."
-      },
-      "social": {
-        "title": "Estrategia Visual y Social",
-        "description": "Identidad coherente y anuncios de alto impacto. Diseñamos redes sociales que construyen autoridad y multiplican tus ventas."
-      },
-      "seo": {
-        "title": "Rendimiento y SEO",
-        "description": "Optimización técnica profunda para que tu web cargue al instante y escale en los buscadores."
+      "nft": {
+        "title": "Mercado NFT",
+        "type": "Diseño Web"
       }
     }
   },

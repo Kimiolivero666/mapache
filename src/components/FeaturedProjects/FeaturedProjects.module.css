@@ -1,86 +1,140 @@
-.featuredProjects {
-  padding: 4rem 0;
-  background-color: #1a1a1a; /* Dark background from design */
-  color: #ffffff; /* White text for contrast */
+.projectsSection {
+  background-color: var(--negro);
+  padding: 140px 2rem;
+  color: white;
 }
 
-.header {
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Copiado de Services.module.css para consistencia */
+.headerContent {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  margin-bottom: 3rem;
-  padding: 0 2rem;
+  text-align: center;
+  margin-bottom: 6rem;
 }
 
 .mainTitle {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-  color: #ffffff;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  margin-bottom: 1.5rem;
+  color: var(--naranja);
+}
+
+.mainTitle span {
+  color: var(--blanco);
+}
+
+.subHeader {
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .subTitle {
   font-size: 1.2rem;
-  color: #cccccc;
+  line-height: 1.6;
+  opacity: 0.7;
+  margin-bottom: 2.5rem;
+  text-wrap: balance;
 }
 
-.viewAllButton {
+/* Botón Ver Todos con estilo de la Captura B */
+.viewAllBtn {
   background-color: transparent;
-  border: 1px solid #ffffff;
-  color: #ffffff;
-  padding: 0.8rem 1.5rem;
-  border-radius: 5px;
+  color: var(--naranja);
+  border: 1px solid var(--naranja);
+  padding: 1rem 2.5rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   cursor: pointer;
-  font-size: 1rem;
   transition: all 0.3s ease;
 }
 
-.viewAllButton:hover {
-  background-color: #ffffff;
-  color: #1a1a1a;
+.viewAllBtn:hover {
+  background-color: var(--naranja);
+  color: #000;
+  transform: translateY(-3px);
 }
 
-.projectGrid {
+/* Grid y Cards (Mix A + B) */
+.grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  padding: 0 2rem;
 }
 
 .projectCard {
-  background-color: #2a2a2a; /* Slightly lighter dark for cards */
-  border-radius: 10px;
+  background-color: #121212;
+  border-radius: 24px;
   overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  text-align: center;
-  padding-bottom: 1.5rem;
+  transition: transform 0.4s ease;
 }
 
-.imageContainer {
-  width: 100%;
-  height: 200px; /* Fixed height for images */
-  overflow: hidden;
+/* FeaturedProjects.module.css */
+.imageWrapper {
+  position: relative;
+  background-color: var(--naranja);
+  height: 400px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--naranja); /* Yellow background from design */
+  justify-content: center; /* Centrado horizontal */
+  align-items: flex-end;    /* Pegado a la base */
+  overflow: hidden;         /* Corta lo que sobra */
+  padding: 0; 
 }
 
 .projectImage {
-  width: 70%; /* Adjust as needed to fit the phone mock-up */
-  height: auto;
-  display: block;
-  object-fit: contain; /* Ensures the whole image is visible */
+  /* 1. Mantenemos el 100% para que el 'fill' sepa dónde está el centro */
+  width: 100% !important; 
+  height: 100% !important;
+  
+  /* 2. Ajustamos la posición base */
+  object-fit: contain;
+  object-position: bottom center;
+  
+  /* 3. El ZOOM imponente se hace aquí (ajusta el 1.6 si lo quieres más grande) */
+  /* El translateY(5%) lo empuja un poco hacia abajo para que no flote */
+  transform: scale(1.6) translateY(5%); 
+  
+  transition: transform 0.5s cubic-bezier(0.2, 1, 0.3, 1);
 }
 
-.projectTitle {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-top: 1rem;
-  color: #ffffff;
+/* Efecto hover opcional para darle vida */
+.projectCard:hover .projectImage {
+  transform: scale(1.65) translateY(3%);
 }
 
-.projectType {
-  font-size: 1rem;
-  color: #cccccc;
+
+.hoverOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
+
+.projectCard:hover .hoverOverlay { opacity: 1; }
+.projectCard:hover .projectImage { transform: scale(1.05); }
+
+.cardContent { padding: 2rem; }
+.cardTitle { font-size: 1.5rem; font-weight: 800; margin-bottom: 0.5rem; }
+.cardType { opacity: 0.6; font-size: 0.9rem; text-transform: uppercase; }
+
+@media (max-width: 1024px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 768px) { .grid { grid-template-columns: 1fr; } }

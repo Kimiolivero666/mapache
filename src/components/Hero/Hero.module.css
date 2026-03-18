@@ -92,113 +92,100 @@
 /* Pantallas de tablets y más pequeñas */
 @media (max-width: 1024px) {
 
-  .hero{
-    padding-top: 3rem;
+  .grid {
+    grid-template-columns: 1fr; /* Stack vertical antes de los 1024px si es necesario */
+    padding-top: 2rem;
   }
   
-  .grid {
-    /* Mantenemos las dos columnas */
-    grid-template-columns: 1fr 1fr; 
-    gap: 1.5rem;
-    padding: 0 2rem;
+  .content {
+    order: 1; /* Texto abajo */
+    padding: 3rem 2rem;
+    text-align: center;
     align-items: center;
-    text-align: left; /* Forzamos alineación a la izquierda */
   }
-
-  
-  .content {
-    order: 1; /* Texto primero */
-    transform: translateY(0); /* Eliminamos desplazamientos de desktop */
-    align-items: flex-start; /* Asegura que el contenido flex se pegue a la izquierda */
-  }
-  
-  
-  
-
+    
   .title {
-    font-size: clamp(2rem, 8vw, 2.8rem); /* Hacemos el texto más pequeño */
     margin-left: 0;
-    margin-top: 3rem;
-    margin-left: 5%;
+    font-size: 3rem;
   }
-
   .imageWrapper {
-    order: 1; /* Movemos la imagen arriba del texto */
-    height: auto; /* La altura se ajustará al contenido */
-    justify-content: center; /* Centramos la imagen */
-    margin-top: 6rem; /* Empujamos la imagen un poco hacia abajo desde el nav */
-    max-height: 50vh;
-    aspect-ratio: auto;
-    height: 40vh; 
-    max-height: 50vh;
-    justify-content: center;
-
-
-  }
-  
-  .mainImage {
-    object-position: center; /* Centramos la imagen en su contenedor */
-    max-height: 50vh; /* Reducimos la altura en tablets */
+     order: 2; /* Texto abajo */
+    width: 60%;
+    margin-left: 20%;
   }
 
-  /* Sutil: El logo de fondo ahora aparece por arriba, más pequeño y con opacidad */
   .logoBg {
-    width: 30%;
-    height: 30%;
-    left: 20%;
-    transform: translateX(-50%);
-    top: 6rem; /* Lo posicionamos cerca de la parte superior */
-    bottom: auto; /* Reseteamos 'bottom' */
-    opacity: 0.1; /* Mucho más sutil */
-  }
+  position: absolute;
+  width: 30%; 
+  height: 30%;
+  left: 30%; 
+  top: -5%; 
+  z-index: 1;
 
-  .bgImage {
-    object-position: center;
-  }
 }
 
-
-
-/* Pantallas móviles */
-@media (max-width: 767px) {
+@media (max-width: 768px){
   .hero {
-    min-height: 85vh; /* Hacemos la sección un poco más corta en móviles */
-    padding-bottom: 2rem;
+    min-height: auto;
+    padding-top: 2rem;
+  }
+  .imageWrapper {
+   order: 1; /* Texto abajo */
+  width: 90%;
+  margin-left: 5%;
+}
+  .content {
+  order: 2; /* Texto abajo */
+  padding: 3rem 2rem;
+  text-align: center;
+  align-items: center;
+}
+  .imageWrapper {
+    height: 40vh;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .logoBg {
+width: 30%; 
+height: 30%;
+left: 10%;
+}
+
+  
+}}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto;
+    padding-top: 0;
+    overflow: visible; /* IMPORTANTE: para que el logo pueda "sobresalir" hacia arriba si es necesario */
   }
 
-  .grid {
-  grid-template-columns: 1fr; /* Cambiamos a una sola columna */
-  padding: 0 2rem; /* Padding uniforme a los lados */
-  text-align: center; /* Centramos el texto */
-  gap: 1rem; /* Reducimos el espacio entre elementos */
-}
+  /* Capa de fondo: Logo Mapache SUBIDO */
+  .logoBg {
+    width: 40%;         /* Un poco más grande para que tenga presencia */
+    height: auto;       /* Dejamos que la altura sea proporcional */
+    aspect-ratio: 1/1; 
+    left: 30%;          /* Lo centramos horizontalmente */
+    bottom: -50%;           /* AJUSTA ESTE VALOR: Menos porcentaje = más arriba */
+    transform: translate(-50%, -50%); /* Truco Senior para centrado perfecto */
+    opacity: 0.12;      /* Bajamos un pelo la opacidad para que el texto sea legible */
+    z-index: -1;         /* Detrás del texto */
+  }
 
-.content {
-  transform: translateY(0); /* Reseteamos la transformación del texto */
-  order: 2; /* Movemos el texto debajo de la imagen */
-  margin-bottom: 4rem; /* Espacio al final de la sección */
-}
-
-.title {
-  margin-left: 0;
-}
+  .content {
+    order: 2;
+    position: relative; 
+    z-index: 5;         /* Aseguramos que el texto esté por encima del logo */
+    padding: 1rem 2rem;
+  }
 
   .imageWrapper {
-    margin-top: 5rem; /* Ajustamos el margen para móviles */
-  }
-
-  .mainImage {
-    max-height: 40vh; /* La imagen es aún más pequeña en móviles */
-  }
-  
-  .content {
-    margin-bottom: 2rem;
-  }
-
-  .logoBg {
-    width: 40%;
-    height: 40%;
-    top: 40%;
-    opacity: 0.08; /* Aún más sutil si es necesario */
+    order: 1;
+    width: 90%;
+    margin: 5rem auto 0 auto; /* Añadimos margen arriba para que no pegue al Nav */
+    height: 35vh;
+    margin-bottom: 3rem;
   }
 }

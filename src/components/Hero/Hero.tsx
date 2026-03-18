@@ -12,22 +12,27 @@ const Hero = () => {
   return (
     <section className={styles.hero}>
       {/* Background Logo - Optimizado */}
-      <motion.div 
-        className={styles.logoBg}
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 0.18 }}
-        transition={{ duration: 1.5 }}
-      >
-        <Image
-          src="/images/logo.png"
-          alt=""
-          fill
-          priority
-          className={styles.bgImage}
-        />
-      </motion.div>
+     
+         <div className={styles.grid}>
+ <motion.div 
+   className={styles.logoBg}
+   initial={{ opacity: 0 }}
+   animate={{ opacity: 0.18 }}
+   transition={{ duration: 1.5 }}
+ >
+   <Image
+     src="/images/logo.png"
+     alt=""
+     fill
+     priority
+     className={styles.bgImage}
+   />
+ </motion.div>
 
-      <div className={styles.grid}>
+
+
+
+
         {/* Columna Izquierda: Texto */}
         <motion.div
           className={styles.content}
