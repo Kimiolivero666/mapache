@@ -5,16 +5,16 @@
     "services": "Servicios",
     "contact": "Contacto",
     "language": "Idioma",
-    "getStarted": "Get Started"
+    "getStarted": "Empezar"
   },
   "hero": {
     "titleLine1": "Desarrollamos webs y sistemas que ayudan a negocios a ahorrar tiempo",
-    "titleLine2": "y vender mas",
-    "cta": "SOLICITAR AUDITORIA GRATUITA"
+    "titleLine2": "y vender más",
+    "cta": "SOLICITAR AUDITORÍA GRATUITA"
   },
   "services": {
-    "title": "LO QUE",
-    "titleHighlight": "OFRECEMOS",
+    "title": "Lo que",
+    "titleHighlight": "ofrecemos",
     "subTitle": "Soluciones digitales de alto impacto. Diseño impecable, código eficiente.",
     "contactBtn": "Ponerse en contacto",
     "items": {
@@ -26,43 +26,25 @@
       "automation": { "title": "Automatización", "description": "Gestión de citas con Calendly y flujos de trabajo automatizados que ahorran tiempo administrativo." },
       "branding": { "title": "DNA de Marca Inolvidable", "description": "Sistemas visuales completos, desde el logotipo hasta el manual de marca, que definen tu esencia." },
       "social": { "title": "Estrategia Visual y Social", "description": "Identidad coherente y anuncios de alto impacto. Diseñamos redes sociales que construyen autoridad y multiplican tus ventas." },
-      "seo": { "title": "Rendimiento y SEO", "description": "Optimización técnica profunda para que tu web cargue al instante y escale en los buscadores." }
+      "symbol": { "title": "Rendimiento y SEO", "description": "Optimización técnica profunda para que tu web cargue al instante y escale en los buscadores." }
     }
   },
   "projects": {
-    "title": "NUESTROS",
-    "titleHighlight": "PROYECTOS",
+    "title": "Nuestros",
+    "titleHighlight": "proyectos",
     "subTitle": "Explora una selección de nuestros trabajos más recientes. Desde landing pages animadas hasta sistemas complejos.",
     "items": {
-      "gestoria": {
-        "title": "Gestoría GCR",
-        "type": "Next.js / Strapi / Calendly"
-      },
-      "aseguradora": {
-        "title": "Nani Seguros",
-        "type": "React / TypeScript / CSS"
-      },
-      "restaurante": {
-        "title": "Restaurante Chimichurri",
-        "type": "Landing Page / Framer Motion"
-      },
-      "agencia": {
-        "title": "Agencia Litte",
-        "type": "Estrategia Digital / Branding / Diseño Web"
-      },
-      "community": {
-        "title": "Sitio Comunitario",
-        "type": "Diseño Web"
-      },
-      "nft": {
-        "title": "Mercado NFT",
-        "type": "Diseño Web"
-      }
+      "gestoria": { "title": "Gestoría GCR", "type": "Next.js / Strapi / Calendly" },
+      "aseguradora": { "title": "Nani Seguros", "type": "React / TypeScript / CSS" },
+      "restaurante": { "title": "Restaurante Chimichurri", "type": "Landing Page / Framer Motion" },
+      "agencia": { "title": "Agencia Litte", "type": "Estrategia Digital / Branding / Diseño Web" },
+      "community": { "title": "Sitio Comunitario", "type": "Diseño Web" },
+      "nft": { "title": "Mercado NFT", "type": "Diseño Web" }
     }
   },
   "method": {
-    "title": "NUESTRO MÉTODO:",
-    "titleHighlight": "DE LA IDEA AL DESPLIEGUE",
+    "title": "Nuestro método:",
+    "titleHighlight": "de la idea al despliegue",
     "subTitle": "Estrategia, diseño y desarrollo: paso a paso hacia tu éxito digital.",
     "step1": {
       "title": "1 - ADN de Marca",
@@ -79,6 +61,26 @@
     "step4": {
       "title": "4 - Autogestión con Strapi",
       "desc": "Integramos Strapi CMS para que tengas el control total. Cambia textos, imágenes o gestiona tu blog de forma sencilla y sin depender de nosotros. Una web que crece contigo."
+    }
+  },
+  "WhyNext": {
+    "titlePart1": "¿Por qué Next.js + Strapi y",
+    "titleHighlight": "no",
+    "titlePart2": "WordPress?",
+    "intro": "Construimos soluciones de ingeniería a medida, no plantillas genéricas. Apostamos por la arquitectura Headless para garantizar tres pilares críticos de tu negocio",
+    "reasons": {
+      "perf": {
+        "title": "Rendimiento Real",
+        "desc": "Carga en milisegundos. Google ama la velocidad de Next.js, optimizando tu SEO de forma nativa.Webs más rápidas, más conversiones."
+      },
+      "security": {
+        "title": "Seguridad Total",
+        "desc": "Al no usar plugins vulnerables de terceros, tu sitio es prácticamente inmune a hackeos comunes en PHP. Protegemos tus datos y tu reputación."
+      },
+      "design": {
+        "title": "Libertad de Diseño",
+        "desc": "Réplicas exactas de Figma con CSS puro. No adaptamos tu negocio a una plantilla genérica, creamos la tecnología que tu marca necesita."
+      }
     }
   },
   "common": {

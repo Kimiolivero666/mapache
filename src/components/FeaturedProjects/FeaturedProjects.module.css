@@ -20,8 +20,7 @@
 
 .mainTitle {
   font-size: clamp(2.5rem, 6vw, 4.5rem);
-  font-weight: 900;
-  text-transform: uppercase;
+  font-weight: 800;
   letter-spacing: -2px;
   margin-bottom: 1.5rem;
   color: var(--naranja);
@@ -87,7 +86,7 @@
 /* FeaturedProjects.module.css */
 .imageWrapper {
   position: relative;
-  background-color: var(--naranja);
+  background-color: var(--blanco);
   height: 400px;
   display: flex;
   justify-content: center; /* Centrado horizontal */

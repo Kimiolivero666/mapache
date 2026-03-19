@@ -3,6 +3,7 @@ import FeaturedProjects from "@/components/FeaturedProjects/FeaturedProjects";
 import Hero from "@/components/Hero/Hero"; 
 import MethodSection from "@/components/MethodSection/MethodSection";
 import Services from "@/components/Services/Services";
+import WhyNext from "@/components/WhyNext/WhyNext";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Services />
       <FeaturedProjects />
       <MethodSection />
+      <WhyNext />
     </main>
   );
 }

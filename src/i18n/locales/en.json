@@ -13,99 +13,74 @@
     "cta": "REQUEST FREE AUDIT"
   },
   "services": {
-    "title": "WHAT WE",
-    "titleHighlight": "PROVIDE",
-    "subTitle": "High-impact digital solutions. Flawless design, efficient code.",
+    "title": "What we",
+    "titleHighlight": "offer",
+    "subTitle": "High-impact digital solutions. Impeccable design, efficient code.",
     "contactBtn": "Get in touch",
     "items": {
-      "theme": {
-        "title": "Theme Development",
-        "description": "Tailor-made websites with React and Next.js, prioritizing performance and pixel-perfect Figma replicas."
-      },
-      "custom": {
-        "title": "Custom Code",
-        "description": "Complex logical solutions, API integrations, and custom-built systems."
-      },
-      "design": {
-        "title": "Interfaces that Convert",
-        "description": "We design intuitive and attractive digital experiences that improve your product's usability."
-      },
-      "cms": {
-        "title": "CMS Integration",
-        "description": "Dynamic content management with Strapi to give you total control over your texts and images."
-      },
-      "ecommerce": {
-        "title": "E-commerce Solutions",
-        "description": "Robust and secure online stores to scale your sales and manage payments digitally."
-      },
-      "automation": {
-        "title": "Automation",
-        "description": "Appointment management with Calendly and automated workflows that save administrative time."
-      },
-      "branding": {
-        "title": "Unforgettable Brand DNA",
-        "description": "Complete visual systems, from the logo to the brand manual, defining your brand's essence."
-      },
-      "social": {
-        "title": "Visual & Social Strategy",
-        "description": "Coherent identity and high-impact ads. We design social media that builds authority and multiplies your sales."
-      },
-      "seo": {
-        "title": "Performance & SEO",
-        "description": "Deep technical optimization to make your site load instantly and scale in search engines."
-      }
+      "theme": { "title": "Theme Development", "description": "Custom websites with React and Next.js, prioritizing performance and exact Figma replicas." },
+      "custom": { "title": "Custom Code", "description": "Complex logic solutions, API integrations, and tailor-made systems." },
+      "design": { "title": "Converting Interfaces", "description": "We design intuitive and attractive digital experiences that improve your product's usability." },
+      "cms": { "title": "CMS Integration", "description": "Dynamic content management with Strapi so you have total control over your texts and images." },
+      "ecommerce": { "title": "E-commerce Solutions", "description": "Robust and secure online stores to scale your sales and manage digital payments." },
+      "automation": { "title": "Automation", "description": "Appointment management with Calendly and automated workflows that save administrative time." },
+      "branding": { "title": "Unforgettable Brand DNA", "description": "Complete visual systems, from logo to brand manual, that define your essence." },
+      "social": { "title": "Visual & Social Strategy", "description": "Consistent identity and high-impact ads. We design social media that builds authority and boosts sales." },
+      "symbol": { "title": "Performance & SEO", "description": "Deep technical optimization so your website loads instantly and climbs search engine rankings." }
     }
   },
   "projects": {
-    "title": "OUR",
-    "titleHighlight": "PROJECTS",
+    "title": "Our",
+    "titleHighlight": "projects",
     "subTitle": "Explore a selection of our most recent work. From animated landing pages to complex systems.",
     "items": {
-      "gestoria": {
-        "title": "GCR Consultancy",
-        "type": "Next.js / Strapi / Calendly"
-      },
-      "aseguradora": {
-        "title": "Nani Insurance",
-        "type": "React / TypeScript / CSS"
-      },
-      "restaurante": {
-        "title": "Chimichurri Restaurant",
-        "type": "Landing Page / Framer Motion"
-      },
-      "agencia": {
-        "title": "Little Agency",
-        "type": "Digital Strategy / Branding / Web Design"
-      },
-      "community": {
-        "title": "Community Site",
-        "type": "Web Design"
-      },
-      "nft": {
-        "title": "NFT Marketplace",
-        "type": "Web Design"
-      }
+      "gestoria": { "title": "GCR Consulting", "type": "Next.js / Strapi / Calendly" },
+      "aseguradora": { "title": "Nani Insurance", "type": "React / TypeScript / CSS" },
+      "restaurante": { "title": "Chimichurri Restaurant", "type": "Landing Page / Framer Motion" },
+      "agencia": { "title": "Litte Agency", "type": "Digital Strategy / Branding / Web Design" },
+      "community": { "title": "Community Site", "type": "Web Design" },
+      "nft": { "title": "NFT Marketplace", "type": "Web Design" }
     }
   },
   "method": {
-    "title": "OUR METHOD:",
-    "titleHighlight": "FROM IDEA TO DEPLOYMENT",
-    "subTitle": "Strategy, design, and development: step by step toward your digital success.",
+    "title": "Our method:",
+    "titleHighlight": "from idea to deployment",
+    "subTitle": "Strategy, design, and development: step by step towards your digital success.",
     "step1": {
       "title": "1 - Brand DNA",
-      "desc": "Before coding, we define your identity. We choose colors, typography, and a tone of voice that connects with your customers. We create a solid visual foundation that represents your business's essence and translates seamlessly across your social media."
+      "desc": "Before coding, we define your identity. We choose colors, typography, and a tone of voice that connects with your customers. We create a solid visual foundation that represents your business's essence and translates seamlessly to your social media."
     },
     "step2": {
       "title": "2 - UX/UI Design in Figma",
-      "desc": "We create a navigable prototype in Figma. You'll see exactly how your site will look before we write a single line of code. Pixel-perfect replicas to ensure no surprises."
+      "desc": "We create a navigable prototype in Figma. You'll see how your website will look before we write a single line of code. We build exact replicas so there are no surprises."
     },
     "step3": {
       "title": "3 - Web Development (Next.js)",
       "desc": "We translate the design into real code using React and Next.js. We focus on clean, semantic, and SEO-optimized code, ensuring fast and scalable loading."
     },
     "step4": {
-      "title": "4 - Self-Management with Strapi",
-      "desc": "We integrate Strapi CMS for total control. Easily change texts, images, or manage your blog without depending on us. A website that grows with you."
+      "title": "4 - Self-management with Strapi",
+      "desc": "We integrate Strapi CMS so you have full control. Change texts, images, or manage your blog easily without depending on us. A website that grows with you."
+    }
+  },
+  "WhyNext": {
+    "titlePart1": "Why Next.js + Strapi and",
+    "titleHighlight": "not",
+    "titlePart2": "WordPress?",
+    "intro": "We build custom engineering solutions, not generic templates. We bet on Headless architecture to guarantee three critical pillars for your business:",
+    "reasons": {
+      "perf": {
+        "title": "Real Performance",
+        "desc": "Loads in milliseconds. Google loves Next.js speed, natively optimizing your SEO. Faster webs, more conversions."
+      },
+      "security": {
+        "title": "Total Security",
+        "desc": "By not using vulnerable third-party plugins, your site is practically immune to common PHP hacks. We protect your data and reputation."
+      },
+      "design": {
+        "title": "Design Freedom",
+        "desc": "Exact Figma replicas with pure CSS. We don't fit your business into a generic template; we create the technology your brand needs."
+      }
     }
   },
   "common": {
