@@ -26,7 +26,7 @@
       "automation": { "title": "Automation", "description": "Appointment management with Calendly and automated workflows that save administrative time." },
       "branding": { "title": "Unforgettable Brand DNA", "description": "Complete visual systems, from logo to brand manual, that define your essence." },
       "social": { "title": "Visual & Social Strategy", "description": "Consistent identity and high-impact ads. We design social media that builds authority and boosts sales." },
-      "symbol": { "title": "Performance & SEO", "description": "Deep technical optimization so your website loads instantly and climbs search engine rankings." }
+      "seo": { "title": "Performance & SEO", "description": "Deep technical optimization so your website loads instantly and climbs search engine rankings." }
     }
   },
   "projects": {
