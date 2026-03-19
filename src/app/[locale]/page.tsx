@@ -1,6 +1,7 @@
 // app/page.tsx
 import FeaturedProjects from "@/components/FeaturedProjects/FeaturedProjects";
 import Hero from "@/components/Hero/Hero"; 
+import MethodSection from "@/components/MethodSection/MethodSection";
 import Services from "@/components/Services/Services";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <Services />
       <FeaturedProjects />
+      <MethodSection />
     </main>
   );
 }

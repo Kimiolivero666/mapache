@@ -60,6 +60,27 @@
       }
     }
   },
+  "method": {
+    "title": "NUESTRO MÉTODO:",
+    "titleHighlight": "DE LA IDEA AL DESPLIEGUE",
+    "subTitle": "Estrategia, diseño y desarrollo: paso a paso hacia tu éxito digital.",
+    "step1": {
+      "title": "1 - ADN de Marca",
+      "desc": "Antes de programar, definimos tu identidad. Elegimos colores, tipografías y un tono de voz que conecte con tus clientes. Creamos una base visual sólida que represente la esencia de tu negocio."
+    },
+    "step2": {
+      "title": "2 - Diseño UX/UI en Figma",
+      "desc": "Creamos un prototipo navegable en Figma. Podrás ver cómo será tu web antes de que escribamos una sola línea de código. Hacemos réplicas exactas para que no haya sorpresas."
+    },
+    "step3": {
+      "title": "3 - Desarrollo Web (Next.js)",
+      "desc": "Traducimos el diseño a código real con React y Next.js. Nos enfocamos en un código limpio, semántico y optimizado para SEO, garantizando una carga rápida y escalable."
+    },
+    "step4": {
+      "title": "4 - Autogestión con Strapi",
+      "desc": "Integramos Strapi CMS para que tengas el control total. Cambia textos, imágenes o gestiona tu blog de forma sencilla y sin depender de nosotros. Una web que crece contigo."
+    }
+  },
   "common": {
     "loading": "Cargando...",
     "error": "Error",

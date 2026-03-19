@@ -1,0 +1,116 @@
+/* src/components/MethodSection/MethodSection.module.css */
+
+.headerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.mainTitle {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  margin-bottom: 1.5rem;
+  color: var(--blanco);
+}
+
+
+.mainTitle span {
+  color: var(--naranja);
+}
+
+.subHeader {
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.subTitle {
+    color: var(--blanco);
+  font-size: 1.2rem;
+  line-height: 1.6;
+  opacity: 0.7;
+  margin-bottom: 2.5rem;
+  text-wrap: balance;
+}
+
+.projectsSection {
+    background-color: var(--negro);
+    padding: 140px 0; /* Aumentamos un poco el padding para dar aire */
+    position: relative;
+    overflow: hidden;
+}
+
+/* --- LA FRANJA HORIZONTAL GRUESA Y BAJA --- */
+.projectsSection::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    
+    /* GROSOR: Aumentado a 220px para un look más potente */
+    height: 500px; 
+    
+    /* COLOR: Naranja con un degradado sutil para dar volumen */
+    background: var(--naranja);
+
+    /* POSICIÓN: Bajado al 65% para que cruce por el tercio inferior de las cards */
+    top: 75%; 
+    left: 0;
+    transform: translateY(-50%);
+    
+    /* CAPA: Por detrás de todo */
+    z-index: 0;
+    
+    /* Opcional: Un desenfoque muy leve en los bordes para que no sea tan cortante */
+    /* filter: blur(1px); */
+}
+
+/* El contenedor de las cards */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 40px;
+    position: relative;
+    z-index: 1; /* Esto hace que las tarjetas tapen la franja */
+}
+
+/* Grid de tarjetas */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+    align-items: start; /* Alineamos arriba para que la línea pase por debajo */
+}
+
+/* --- ESTILO DE TARJETA (Asegúrate de que tenga fondo sólido) --- */
+.projectCard {
+    background-color: #121212; /* Fondo sólido muy oscuro para tapar la línea */
+    border-radius: 28px;
+    overflow: hidden;
+    border: 1px solid #222222;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    height: 100%;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+.projectCard:hover {
+    border-color: var(--naranja);
+    transform: translateY(-12px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.7);
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 1200px) {
+    .grid { grid-template-columns: repeat(2, 1fr); }
+    .projectsSection::before { height: 180px; top: 60%; } /* Ajuste para tablets */
+}
+
+@media (max-width: 650px) {
+    .grid { grid-template-columns: 1fr; }
+    .projectsSection::before {  display: none; } /* Ajuste para móviles */
+}

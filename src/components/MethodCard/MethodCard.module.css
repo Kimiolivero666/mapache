@@ -1,0 +1,108 @@
+/* Estenedor principal de la sección */
+.projectsSection {
+  background-color: #000000;
+  padding: 100px 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Grid adaptable: 4 columnas en desktop, 2 en tablet, 1 en mobile */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+/* La Tarjeta (ProjectCard) */
+.projectCard {
+  background: #111111;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #222222;
+  transition: all 0.4s ease;
+  height: 100%;
+  border: solid 2px var(--blanco)
+}
+
+.projectCard:hover {
+  border-color: #FCAE00;
+  transform: translateY(-10px);
+}
+
+/* Contenedor de Imagen */
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: #1a1a1a;
+}
+
+.projectImage {
+  transition: transform 0.5s ease;
+}
+
+.projectCard:hover .projectImage {
+  transform: scale(1.1);
+}
+
+/* Overlay con la flecha */
+.hoverOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(252, 174, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.projectCard:hover .hoverOverlay {
+  opacity: 1;
+}
+
+.cardArrow {
+  color: #FCAE00;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* Contenido de texto */
+.cardContent {
+  padding: 25px;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.cardType {
+  font-size: 0.95rem;
+  color: #bbbbbb;
+  line-height: 1.6;
+}
+
+/* Media Queries para que sea responsive */
+@media (max-width: 1100px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
