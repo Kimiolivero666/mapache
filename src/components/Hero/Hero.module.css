@@ -56,13 +56,19 @@
   color: white;
   line-height: 1.1;
   margin-left: 3rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .highlightWrapper {
   position: relative;
   display: inline-block;
-  white-space: nowrap;
+  white-space: normal;
   color: white; 
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .imageWrapper {
@@ -107,6 +113,17 @@
   .title {
     margin-left: 0;
     font-size: 3rem;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+  
+  .highlightWrapper {
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
   }
   .imageWrapper {
      order: 2; /* Texto abajo */
@@ -136,15 +153,26 @@
 }
   .content {
   order: 2; /* Texto abajo */
-  padding: 3rem 2rem;
+  padding: 3rem 1rem;
   text-align: center;
   align-items: center;
+  max-width: 100%;
 }
   .imageWrapper {
     height: 40vh;
   }
   .title {
     font-size: 2rem;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+  .highlightWrapper {
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
   }
   .logoBg {
 width: 30%; 

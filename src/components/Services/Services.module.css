@@ -23,6 +23,9 @@
   font-weight: 800;
   letter-spacing: -2px;
   margin-bottom: 1.5rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .mainTitle span {
@@ -110,6 +113,9 @@
   margin-bottom: 1.5rem;
   line-height: 1.1;
   text-transform: uppercase;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .cardDescription {
@@ -117,6 +123,9 @@
   line-height: 1.5;
   opacity: 0.7;
   font-weight: 500;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .highlighted .cardDescription {
@@ -133,7 +142,7 @@
 
 @media (max-width: 768px) {
   .servicesSection {
-    padding: 80px 1.5rem;
+    padding: 80px 1rem;
   }
   .grid {
     grid-template-columns: 1fr;
@@ -146,5 +155,14 @@
   }
   .contactBtn {
     width: 100%;
+  }
+  .card {
+    padding: 2rem 1.5rem;
+  }
+  .cardTitle {
+    font-size: 1.3rem;
+  }
+  .cardDescription {
+    font-size: 0.9rem;
   }
 }
