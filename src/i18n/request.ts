@@ -2,10 +2,12 @@ import {getRequestConfig} from 'next-intl/server';
 import {routing} from './routing';
 import es from './locales/es.json';
 import en from './locales/en.json';
+import de from './locales/de.json';
 
 const messages = {
   es,
-  en
+  en,
+  de
 };
 
 export default getRequestConfig(async ({locale}) => {
