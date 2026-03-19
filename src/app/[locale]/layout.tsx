@@ -4,12 +4,14 @@ import { routing } from '@/i18n/routing';
 import Navbar from '@/components/Navbar/Navbar';
 import es from '@/i18n/locales/es.json';
 import en from '@/i18n/locales/en.json';
+import de from '@/i18n/locales/de.json';
 
 type Locale = (typeof routing.locales)[number];
 
 const messages = {
   es,
   en,
+  de,
 };
 
 export async function generateStaticParams() {

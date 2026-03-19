@@ -8,39 +8,78 @@
     "getStarted": "Loslegen"
   },
   "hero": {
-    "titleLine1": "Wir erstellen Websites und Systeme für Unternehmen,",
-    "titleLine2": "die mehr verkaufen möchten",
+    "titleLine1": "Wir entwickeln Websites und Systeme, die Unternehmen helfen, Zeit zu sparen",
+    "titleLine2": "und mehr zu verkaufen",
     "cta": "KOSTENLOSE PRÜFUNG ANFORDERN"
   },
   "services": {
-    "title": "WAS",
-    "titleHighlight": "BIETEN WIR?",
-    "subtitle": "Wir kümmern uns um Marke, Design und Entwicklung, um Ihr Geschäft zu skalieren.",
-    "contactButton": "Kontakt aufnehmen",
+    "title": "Was",
+    "titleHighlight": "wir anbieten",
+    "subTitle": "Digitale Lösungen mit hoher Wirkung. Makelloses Design, effizienter Code.",
+    "contactBtn": "Kontakt aufnehmen",
     "items": {
-      "theme": {
-        "title": "Theme-Entwicklung",
-        "description": "Maßgeschneiderte Websites mit React und Next.js, bei denen Leistung und exakte Figma-Nachbildungen im Vordergrund stehen."
+      "theme": { "title": "Theme-Entwicklung", "description": "Maßgeschneiderte Websites mit React und Next.js, bei denen Leistung und exakte Figma-Nachbildungen im Vordergrund stehen." },
+      "custom": { "title": "Benutzerdefinierter Code", "description": "Komplexe Logiklösungen, API-Integrationen und maßgeschneiderte Systeme." },
+      "design": { "title": "Interfaces, die konvertieren", "description": "Wir gestalten intuitive und attraktive digitale Erlebnisse, die die Benutzerfreundlichkeit Ihres Produkts verbessern." },
+      "cms": { "title": "CMS-Integration", "description": "Dynamisches Content-Management mit Strapi, damit Sie die volle Kontrolle über Ihre Texte und Bilder haben." },
+      "ecommerce": { "title": "E-Commerce-Lösungen", "description": "Robuste und sichere Online-Shops zur Skalierung Ihrer Verkäufe und digitalen Zahlungsabwicklung." },
+      "automation": { "title": "Automatisierung", "description": "Terminverwaltung mit Calendly und automatisierte Arbeitsabläufe, die administrativen Aufwand sparen." },
+      "branding": { "title": "Unvergessliches Marken-DNA", "description": "Vollständige visuelle Systeme, vom Logo bis zum Markenhandbuch, die Ihre Essenz definieren." },
+      "social": { "title": "Visuelle und soziale Strategie", "description": "Kohärente Identität und hochwirksame Anzeigen. Wir gestalten soziale Medien, die Autorität aufbauen und Ihre Verkäufe vervielfachen." },
+      "seo": { "title": "Leistung und SEO", "description": "Tiefe technische Optimierung, damit Ihre Website sofort lädt und in Suchmaschinen skaliert." }
+    }
+  },
+  "projects": {
+    "title": "Unsere",
+    "titleHighlight": "Projekte",
+    "subTitle": "Entdecken Sie eine Auswahl unserer neuesten Arbeiten. Von animierten Landing Pages bis hin zu komplexen Systemen.",
+    "items": {
+      "gestoria": { "title": "Gestoría GCR", "type": "Next.js / Strapi / Calendly" },
+      "aseguradora": { "title": "Nani Seguros", "type": "React / TypeScript / CSS" },
+      "restaurante": { "title": "Restaurant Chimichurri", "type": "Landing Page / Framer Motion" },
+      "agencia": { "title": "Agentur Litte", "type": "Digitale Strategie / Branding / Webdesign" },
+      "community": { "title": "Community-Website", "type": "Webdesign" },
+      "nft": { "title": "NFT-Marktplatz", "type": "Webdesign" }
+    }
+  },
+  "method": {
+    "title": "Unsere Methode:",
+    "titleHighlight": "von der Idee zum Deployment",
+    "subTitle": "Strategie, Design und Entwicklung: Schritt für Schritt zu Ihrem digitalen Erfolg.",
+    "step1": {
+      "title": "1 - Marken-DNA",
+      "desc": "Bevor wir programmieren, definieren wir Ihre Identität. Wir wählen Farben, Schriftarten und einen Tonfall, der mit Ihren Kunden verbindet. Wir schaffen eine solide visuelle Grundlage, die die Essenz Ihres Unternehmens repräsentiert und sich vollständig kohärent auf Ihre sozialen Medien überträgt."
+    },
+    "step2": {
+      "title": "2 - UX/UI-Design in Figma",
+      "desc": "Wir erstellen einen navigierbaren Prototyp in Figma. Sie können sehen, wie Ihre Website aussehen wird, bevor wir eine einzige Zeile Code schreiben. Wir machen exakte Nachbildungen, damit es keine Überraschungen gibt."
+    },
+    "step3": {
+      "title": "3 - Web-Entwicklung (Next.js)",
+      "desc": "Wir übersetzen das Design in echten Code mit React und Next.js. Wir konzentrieren uns auf sauberen, semantischen und SEO-optimierten Code, der schnelles und skalierbares Laden garantiert."
+    },
+    "step4": {
+      "title": "4 - Selbstverwaltung mit Strapi",
+      "desc": "Wir integrieren Strapi CMS, damit Sie die volle Kontrolle haben. Ändern Sie Texte, Bilder oder verwalten Sie Ihren Blog einfach und ohne von uns abhängig zu sein. Eine Website, die mit Ihnen wächst."
+    }
+  },
+  "WhyNext": {
+    "titlePart1": "Warum Next.js + Strapi und",
+    "titleHighlight": "nicht",
+    "titlePart2": "WordPress?",
+    "intro": "Wir bauen maßgeschneiderte Ingenieurslösungen, keine generischen Vorlagen. Wir setzen auf Headless-Architektur, um drei kritische Säulen Ihres Geschäfts zu gewährleisten",
+    "reasons": {
+      "perf": {
+        "title": "Echte Leistung",
+        "desc": "Lädt in Millisekunden. Google liebt die Geschwindigkeit von Next.js und optimiert Ihr SEO nativ. Schnellere Websites, mehr Konversionen."
       },
-      "custom": {
-        "title": "Benutzerdefinierter Code",
-        "description": "Komplexe Logiklösungen, API-Integrationen und maßgeschneiderte Systeme."
+      "security": {
+        "title": "Totale Sicherheit",
+        "desc": "Ohne anfällige Drittanbieter-Plugins ist Ihre Website praktisch immun gegen gängige PHP-Hacks. Wir schützen Ihre Daten und Ihren Ruf."
       },
       "design": {
-        "title": "UI/UX-Design",
-        "description": "In Figma entworfene Designs, die in exakte Nachbildungen umgewandelt werden und auf den Benutzer ausgerichtet sind."
-      },
-      "cms": {
-        "title": "CMS-Integration",
-        "description": "Dynamisches Content-Management mit Strapi, damit Sie die volle Kontrolle haben."
-      },
-      "ecommerce": {
-        "title": "E-Commerce-Lösungen",
-        "description": "Robuste und sichere Online-Shops zur Skalierung Ihrer digitalen Verkäufe."
-      },
-      "automation": {
-        "title": "Automatisierung",
-        "description": "Terminverwaltung mit Calendly und zeitsparende Arbeitsabläufe."
+        "title": "Design-Freiheit",
+        "desc": "Exakte Figma-Nachbildungen mit reinem CSS. Wir passen Ihr Geschäft nicht an eine generische Vorlage an, sondern schaffen die Technologie, die Ihre Marke braucht."
       }
     }
   },
@@ -48,22 +87,5 @@
     "loading": "Wird geladen...",
     "error": "Fehler",
     "success": "Erfolg"
-  },
-  "FeaturedProjects": {
-    "mainTitle": "Vorgestellte Projekte",
-    "subTitle": "Frühere Arbeiten",
-    "viewAllButton": "Alle ansehen",
-    "figmaTemplatesTitle": "Figma-Vorlagen",
-    "figmaTemplatesType": "Produkt-Website",
-    "youtuberDeveloperDesignerTitle": "Youtuber-Entwickler & Designer",
-    "youtuberDeveloperDesignerType": "Portfolio-Website",
-    "marthaWilsonTitle": "Martha Wilson",
-    "marthaWilsonType": "Portfolio-Website",
-    "bringingHopeTitle": "Hoffnung in die Welt bringen",
-    "bringingHopeType": "Community-Website",
-    "nftMarketTitle": "NFT-Marktplatz-Website",
-    "nftMarketType": "Webdesign",
-    "agencyWebsiteTitle": "Agentur-Website",
-    "agencyWebsiteType": "Webdesign und -entwicklung"
   }
 }

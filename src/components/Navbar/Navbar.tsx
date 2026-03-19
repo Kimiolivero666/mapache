@@ -68,9 +68,9 @@ const Navbar = () => {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.95 }}
                 >
-                  {['es', 'en'].map((lng) => (
-                    <button key={lng} onClick={() => { changeLanguage(lng as 'es' | 'en'); setShowLanguageMenu(false); }}>
-                      {lng === 'es' ? 'Español' : 'English'}
+                  {['es', 'en', 'de'].map((lng) => (
+                    <button key={lng} onClick={() => { changeLanguage(lng as 'es' | 'en' | 'de'); setShowLanguageMenu(false); }}>
+                      {lng === 'es' ? 'Español' : lng === 'en' ? 'English' : 'Deutsch'}
                     </button>
                   ))}
                 </motion.div>
@@ -107,9 +107,9 @@ const Navbar = () => {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.95 }}
                 >
-                  {['es', 'en'].map((lng) => (
-                    <button key={lng} onClick={() => { changeLanguage(lng as 'es' | 'en'); setShowLanguageMenu(false); }}>
-                      {lng === 'es' ? 'Español' : 'English'}
+                  {['es', 'en', 'de'].map((lng) => (
+                    <button key={lng} onClick={() => { changeLanguage(lng as 'es' | 'en' | 'de'); setShowLanguageMenu(false); }}>
+                      {lng === 'es' ? 'Español' : lng === 'en' ? 'English' : 'Deutsch'}
                     </button>
                   ))}
                 </motion.div>

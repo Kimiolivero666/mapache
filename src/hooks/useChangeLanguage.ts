@@ -6,7 +6,7 @@ export const useChangeLanguage = () => {
   const pathname = usePathname();
   const [isPending, startTransition] = useTransition();
 
-  const changeLanguage = (newLocale: 'en' | 'es') => {
+  const changeLanguage = (newLocale: 'en' | 'es' | 'de') => {
     startTransition(() => {
       // next-intl requiere el pathname y el nuevo locale
       // Esto actualiza la URL y la cookie automáticamente

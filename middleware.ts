@@ -13,6 +13,6 @@ export const config = {
     
     // 4. Permite que las rutas de i18n funcionen (como /es, /en)
     '/',
-    '/(th|en|es)/:path*' // Ajusta los códigos de idioma según tu 'routing'
+    '/(de|en|es)/:path*' // Ajusta los códigos de idioma según tu 'routing'
   ]
 };
