@@ -1,0 +1,124 @@
+.section {
+  background-color: var(--negro);
+  padding: 80px 20px 40px;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.headerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+/* TechStack.module.css */
+
+.mainTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  line-height: 1.1;
+  /* Eliminamos el margin-left: 3rem; para que en el carrusel esté centrado */
+  margin: 0 auto; 
+  text-align: center;
+  max-width: 900px;
+  margin-bottom: 2rem;
+}
+
+.highlightWrapper {
+  position: relative; /* CRÍTICO: El subrayado se posiciona respecto a esto */
+  display: inline-block;
+  color: white;
+  /* Aseguramos que el texto esté por encima de la línea si es necesario */
+  z-index: 1; 
+}
+
+/* Si el componente AnimatedUnderline no tiene su propio CSS interno, 
+   asegúrate de que tenga estas propiedades */
+.highlightWrapper :global(.underline-svg) {
+  position: absolute;
+  left: 0;
+  bottom: -10px; /* Ajusta según Figma */
+  width: 100%;
+  z-index: -1; /* Para que quede detrás del texto pero visible */
+}
+
+.orangeStrip {
+  background-color: var(--naranja);
+  padding: 25px 0;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.logosContainer {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  white-space: nowrap;
+  will-change: transform;
+}
+
+.logoItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  min-width: fit-content;
+}
+
+.logoIcon {
+  font-size: 2rem;
+  color: var(--blanco);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoName {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--blanco);
+  text-align: center;
+  opacity: 0.9;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .logoIcon {
+    font-size: 2.5rem;
+  }
+  
+  .logoName {
+    font-size: 1rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .section {
+    padding: 100px 20px 60px;
+  }
+  
+  .orangeStrip {
+    padding: 30px 0;
+  }
+  
+  .logoIcon {
+    font-size: 2.8rem;
+  }
+  
+  .logoName {
+    font-size: 1.1rem;
+  }
+  
+  .logosContainer {
+    gap: 80px;
+  }
+}

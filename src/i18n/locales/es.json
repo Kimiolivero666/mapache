@@ -124,6 +124,11 @@
       }
     ]
   },
+  "TechStack": {
+    "titlePart1": "Tecnologías que",
+    "titlePart2": "impulsan",
+    "titlePart3": "tu éxito"
+  },
   "common": {
     "loading": "Cargando...",
     "error": "Error",

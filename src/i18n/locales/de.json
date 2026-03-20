@@ -124,6 +124,11 @@
       }
     ]
   },
+  "TechStack": {
+    "titlePart1": "Technologien, die",
+    "titlePart2": "deinen Erfolg",
+    "titlePart3": "vorantreiben"
+  },
   "common": {
     "loading": "Wird geladen...",
     "error": "Fehler",

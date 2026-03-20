@@ -124,6 +124,11 @@
       }
     ]
   },
+  "TechStack": {
+    "titlePart1": "Technologies that",
+    "titlePart2": "drive",
+    "titlePart3": "your success"
+  },
   "common": {
     "loading": "Loading...",
     "error": "Error",
