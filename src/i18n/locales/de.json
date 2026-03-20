@@ -83,6 +83,47 @@
       }
     }
   },
+  "Testimonials": {
+    "titleOrange": "Was sie",
+    "titleWhite": "über uns sagen",
+    "items": [
+      {
+        "id": "1",
+        "name": "Rubén Nani",
+        "title": "Direktor, GCR Consulting",
+        "avatar": "RN",
+        "quote": "Unglaubliche Arbeit mit der Strapi- und Calendly-Integration. Jetzt verwalten wir alle Termine automatisch und ich kann meine eigenen Texte bearbeiten, ohne eine Zeile Code zu berühren."
+      },
+      {
+        "id": "2",
+        "name": "Ana García",
+        "title": "CEO, TechStart",
+        "avatar": "AG",
+        "quote": "Wir suchten eine exakte Kopie unseres Figma-Designs und das Ergebnis war makellos. Die Next.js-Ladegeschwindigkeit hat unsere Konversionen erheblich verbessert."
+      },
+      {
+        "id": "3",
+        "name": "Carlos Rodríguez",
+        "title": "Restaurantbesitzer",
+        "avatar": "CR",
+        "quote": "Die Landing Page mit Framer Motion hat unsere Kunden beeindruckt. Sie ist flüssig, modern und spiegelt perfekt die Essenz unserer Marke wider."
+      },
+      {
+        "id": "4",
+        "name": "Laura Martínez",
+        "title": "Marketing-Managerin",
+        "avatar": "LM",
+        "quote": "Mit ihnen zu arbeiten war eine große Entscheidung. Sie programmieren nicht nur, sie verstehen die Geschäftslogik. Das System ist robust, sicher und sehr benutzerfreundlich."
+      },
+      {
+        "id": "5",
+        "name": "Marta Soler",
+        "title": "Gründerin, InnovaLab",
+        "avatar": "MS",
+        "quote": "Der Wechsel von WordPress zu diesem Headless-System war die beste Entscheidung. Sicherheit und technische Leistung sind auf einem anderen Niveau im Vergleich zu dem, was wir vorher hatten."
+      }
+    ]
+  },
   "common": {
     "loading": "Wird geladen...",
     "error": "Fehler",
