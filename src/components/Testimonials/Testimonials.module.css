@@ -1,0 +1,125 @@
+.section {
+  background-color: var(--negro);
+  padding: 140px 2rem;
+  color: white;
+  width: 100%;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.headerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.mainTitle {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 800;
+  letter-spacing: -2px;
+  margin-bottom: 1.5rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.mainTitle span {
+  color: var(--naranja);
+}
+
+.orangeText {
+  color: var(--naranja);
+}
+
+.card {
+  background: #121212;
+  backdrop-filter: blur(10px);
+  padding: 40px 30px;
+  border-radius: 16px;
+  border: 1px solid rgba(244, 249, 252, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: var(--blanco);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  border-color: rgba(255, 149, 0, 0.3);
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--naranja);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--blanco);
+  flex-shrink: 0;
+}
+
+.name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--blanco);
+}
+
+.title {
+  font-size: 0.9rem;
+  color: var(--celeste);
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+.quote {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--blanco);
+  opacity: 0.9;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.quoteIcon {
+  font-size: 5rem;
+  color: var(--blanco);
+  opacity: 0.8;
+  margin-bottom: 20px;
+  font-family: serif;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.userText {
+  text-align: left;
+}
+
+.userTitle {
+  font-size: 0.9rem;
+  color: var(--naranja);
+  opacity: 0.9;
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .title {
+    font-size: 2.8rem;
+  }
+  
+  .card {
+    padding: 50px 35px;
+  }
+}

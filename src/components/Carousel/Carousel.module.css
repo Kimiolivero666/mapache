@@ -1,0 +1,91 @@
+.carouselContainer {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.itemsGrid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr;
+  margin-bottom: 3rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.itemWrapper {
+  transition: all 0.5s ease-in-out;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navButton {
+  background: rgba(244, 249, 252, 0.1);
+  border: 1px solid rgba(244, 249, 252, 0.2);
+  color: var(--blanco);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.navButton:hover {
+  background: rgba(255, 149, 0, 0.2);
+  border-color: var(--naranja);
+  transform: scale(1.1);
+}
+
+.dots {
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(244, 249, 252, 0.3);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dot:hover {
+  background: rgba(244, 249, 252, 0.5);
+}
+
+.activeDot {
+  background: var(--naranja);
+  width: 30px;
+  border-radius: 5px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .itemsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .itemsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Large Desktop */
+@media (min-width: 1200px) {
+  .itemsGrid {
+    gap: 40px;
+  }
+}

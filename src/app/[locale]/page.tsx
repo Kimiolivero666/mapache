@@ -3,6 +3,7 @@ import FeaturedProjects from "@/components/FeaturedProjects/FeaturedProjects";
 import Hero from "@/components/Hero/Hero"; 
 import MethodSection from "@/components/MethodSection/MethodSection";
 import Services from "@/components/Services/Services";
+import Testimonials from "@/components/Testimonials/Testimonials";
 import WhyNext from "@/components/WhyNext/WhyNext";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <FeaturedProjects />
       <MethodSection />
       <WhyNext />
+      <Testimonials />
     </main>
   );
 }
