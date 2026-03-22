@@ -6,7 +6,7 @@ import { LuChevronLeft, LuChevronRight } from 'react-icons/lu';
 import styles from './Carousel.module.css';
 
 export interface CarouselItem {
-  id: number;
+  id: string;
   name: string;
   title: string;
   avatar: string;

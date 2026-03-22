@@ -1,0 +1,135 @@
+/* Faq.module.css */
+
+.section {
+  background-color: var(--negro);
+  padding: 100px 20px;
+  min-height: 80vh;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.headerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.mainTitle {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 800;
+  letter-spacing: -2px;
+  margin-bottom: 1.5rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  color: var(--blanco);
+}
+
+
+.mainTitle span {
+  color: var(--naranja);
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* Espacio entre las píldoras */
+  margin-top: 4rem;
+}
+
+.item {
+  background-color: #1a1a1a; /* Gris muy oscuro de la imagen */
+  border-radius: 50px; /* Forma de píldora */
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid transparent;
+}
+
+/* ESTADO ACTIVO: Cuando se abre la pregunta */
+.item.active {
+  background-color: var(--naranja); /* Cambia a tu naranja de marca */
+  transform: scale(1.02); /* Efecto sutil de expansión */
+}
+
+.question {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.8rem 2.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+/* El texto de la pregunta cambia a negro cuando el fondo es naranja */
+.item.active .question {
+  color: #000;
+}
+
+.item.active .question span {
+  font-weight: 700;
+}
+
+.answerWrapper {
+  overflow: hidden;
+}
+
+.answer {
+  padding: 0 2.5rem 2rem 2.5rem;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+/* El texto de la respuesta cambia a negro/oscuro cuando el fondo es naranja */
+.item.active .answer {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+/* Icono circular de la derecha */
+.question div {
+  background-color: #333; /* Círculo oscuro por defecto */
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+/* Icono cuando está activo */
+.item.active .question div {
+  background-color: #000; /* Círculo negro sobre fondo naranja */
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .item {
+    border-radius: 35px;
+  }
+  
+  .question {
+    padding: 1.5rem 2rem;
+    font-size: 1rem;
+  }
+  
+  .answer {
+    padding: 0 2rem 1.5rem 2rem;
+    font-size: 0.95rem;
+  }
+}

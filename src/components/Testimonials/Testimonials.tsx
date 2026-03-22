@@ -3,26 +3,33 @@
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import styles from './Testimonials.module.css';
-import Carousel from '../Carousel/Carousel';
+import Carousel, { CarouselItem } from '../Carousel/Carousel';
 
 export default function Testimonials() {
   const t = useTranslations('Testimonials');
 
   // t.raw nos permite obtener el array completo de los JSON
-  const testimonials = t.raw('items'); 
+  const testimonials = t.raw('items') as CarouselItem[];
+
+  const fadeInProps = {
+    initial: { opacity: 0, y: 20 },
+    whileInView: { opacity: 1, y: 0 },
+    viewport: { once: true },
+    transition: { duration: 0.6 }
+  }; 
 
   return (
     <section className={styles.section}>
       <div className={styles.container}>
         <div className={styles.headerContent}>
-          <motion.h2 className={styles.mainTitle}>
+          <motion.h2 className={styles.mainTitle} {...fadeInProps}>
             <span className={styles.orangeText}>{t('titleOrange')}</span> {t('titleWhite')}
           </motion.h2>
         </div>
         
         <Carousel 
           items={testimonials}
-          renderItem={(item: any) => (
+          renderItem={(item) => (
             <div key={item.id} className={styles.card}>
               <div className={styles.quoteIcon}>“</div>
               <p className={styles.quote}>"{item.quote}"</p>

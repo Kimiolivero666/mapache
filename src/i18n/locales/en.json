@@ -129,6 +129,62 @@
     "titlePart2": "drive",
     "titlePart3": "your success"
   },
+  
+  "Faq": {
+    "titlePart1": "Frequently Asked",
+    "titlePart2": "Questions",
+    "items": [
+      {
+        "q": "What are the advantages of working with an integrated design and development team?",
+        "a": "As a direct team of Senior UX designers and Fullstack developers, we eliminate the communication silos found in large agencies. This ensures that creative vision and technical feasibility work together from day one."
+      },
+      {
+        "q": "Why do you use Next.js instead of WordPress?",
+        "a": "For high-performance projects, Next.js offers superior loading speeds, better technical SEO, and security that WordPress cannot match. It’s the technology used by companies like TikTok or Twitch."
+      },
+      {
+        "q": "Do you create exact replicas of Figma designs?",
+        "a": "Yes. Our process guarantees total fidelity. By mastering both design and development, we ensure that every animation, spacing, and typography is translated into code exactly as approved."
+      },
+      {
+        "q": "Will the site be easy to manage myself?",
+        "a": "Absolutely. We integrate modern CMS platforms like Strapi or Sanity so you can edit text and images without touching a single line of code."
+      },
+      {
+        "q": "Are your websites optimized for mobile devices?",
+        "a": "Mobile-First design is our standard. We ensure a flawless user experience on smartphones and tablets, maintaining smooth animations and fast loading speeds across all devices."
+      },
+      {
+        "q": "Can external tools like payment gateways or calendars be integrated?",
+        "a": "Yes, we have experience integrating third-party APIs like Stripe, Calendly, or marketing automation platforms, ensuring the web becomes a functional tool for your business."
+      },
+      {
+        "q": "What happens once the website is published?",
+        "a": "We don't disappear after the launch. We offer a warranty period and ongoing support to resolve any doubts, along with maintenance plans to keep technology and security up to date."
+      },
+      {
+        "q": "How do you integrate social media strategy and video into the web?",
+        "a": "We design the website as the core of a digital ecosystem. We create interfaces optimized for social media traffic to facilitate conversion, integrating visual content and professional video with total consistency."
+      },
+      {
+        "q": "How do you handle technical SEO in your developments?",
+        "a": "Unlike visual builders, our custom development allows total control over site structure, metadata, and speed—factors that Google prioritizes for search engine rankings."
+      },
+      {
+        "q": "What does the social media management and strategy service include?",
+        "a": "We offer a comprehensive solution ranging from defining content pillars to visual creation (design and video) and strategic post scheduling. The goal is a professional brand presence without requiring your time."
+      },
+      {
+        "q": "How do you ensure social media content is consistent with the website?",
+        "a": "Thanks to our team structure, the web's UX design and social media art direction stem from the same creative concept. This guarantees a seamless transition from an Instagram post to the landing page."
+      },
+      {
+        "q": "Why is a high-performance website important if I already have social media?",
+        "a": "Social media is for attraction, but the website is your digital property where conversion happens. We develop in Next.js so that when a user clicks your link, the page loads instantly to close the sale or capture the lead."
+      }
+    ]
+  },
+
   "common": {
     "loading": "Loading...",
     "error": "Error",

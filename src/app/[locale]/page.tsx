@@ -1,4 +1,5 @@
 // app/page.tsx
+import Faq from "@/components/Faq/Faq";
 import FeaturedProjects from "@/components/FeaturedProjects/FeaturedProjects";
 import Hero from "@/components/Hero/Hero"; 
 import MethodSection from "@/components/MethodSection/MethodSection";
@@ -20,6 +21,7 @@ export default function Home() {
       <WhyNext />
       <Testimonials />
       <TechStack />
+      <Faq />
     </main>
   );
 }

@@ -50,7 +50,7 @@
 }
 
 .orangeStrip {
-  background-color: var(--naranja);
+  /* background-color: var(--naranja); */ /* Si quieres un fondo naranja detrás del carrusel, descomenta esta línea */
   padding: 25px 0;
   width: 100%;
   position: relative;

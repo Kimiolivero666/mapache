@@ -129,6 +129,60 @@
     "titlePart2": "impulsan",
     "titlePart3": "tu éxito"
   },
+  "Faq": {
+    "titlePart1": "Preguntas",
+    "titlePart2": "frecuentes",
+    "items": [
+      {
+        "q": "¿Qué ventajas ofrece trabajar con un equipo integrado de diseño y desarrollo?",
+        "a": "Al ser un equipo directo de diseño UX senior y desarrollo fullstack, eliminamos los silos de comunicación de las agencias grandes. Esto garantiza que la visión creativa y la viabilidad técnica caminen juntas desde el primer día."
+      },
+      {
+        "q": "¿Por qué usan Next.js en lugar de WordPress?",
+        "a": "Para proyectos de alto rendimiento, Next.js ofrece una velocidad de carga superior, mejor SEO técnico y una seguridad que WordPress no puede igualar. Es la tecnología que usan empresas como TikTok o Twitch."
+      },
+      {
+        "q": "¿Realizan réplicas exactas de diseños de Figma?",
+        "a": "Sí. Nuestro proceso garantiza una fidelidad total. Al dominar tanto el diseño como el desarrollo, nos aseguramos de que cada animación, espaciado y tipografía se traslade al código exactamente como fue aprobado."
+      },
+      {
+        "q": "¿El sitio será autogestionable?",
+        "a": "Totalmente. Integramos CMS modernos como Strapi o Sanity para que puedas editar textos e imágenes sin tocar una sola línea de código."
+      },
+      {
+        "q": "¿Sus sitios web están optimizados para dispositivos móviles?",
+        "a": "El diseño 'Mobile-First' es nuestro estándar. Aseguramos que la experiencia de usuario sea impecable en smartphones y tablets, manteniendo la fluidez de las animaciones y la rapidez de carga en cualquier dispositivo."
+      },
+      {
+        "q": "¿Es posible integrar herramientas externas como pasarelas de pago o calendarios?",
+        "a": "Sí, tenemos experiencia integrando APIs de terceros como Stripe, Calendly o plataformas de marketing automation, asegurando que la web se convierta en una herramienta operativa para el negocio."
+      },
+      {
+        "q": "¿Qué sucede una vez que la web está publicada?",
+        "a": "No desaparecemos tras el lanzamiento. Ofrecemos un periodo de garantía y acompañamiento para resolver dudas, además de planes de mantenimiento para que la tecnología y la seguridad estén siempre al día."
+      },
+      {
+        "q": "¿Cómo integran la estrategia de redes sociales y video en la web?",
+        "a": "Diseñamos la web como el núcleo de un ecosistema digital. Creamos interfaces optimizadas para recibir tráfico de redes y facilitar la conversión, integrando contenido visual y video profesional con coherencia total."
+      },
+      {
+        "q": "¿Cómo gestionan el SEO técnico en sus desarrollos?",
+        "a": "A diferencia de los constructores visuales, nuestro desarrollo a medida permite un control total sobre la estructura del sitio, los metadatos y la velocidad, factores que Google prioriza para posicionar las webs en los primeros resultados."
+      },
+      {
+        "q": "¿Qué incluye el servicio de gestión y estrategia de redes sociales?",
+        "a": "Ofrecemos una solución integral que va desde la definición de los pilares de contenido y el tono de voz, hasta la creación visual (diseño y video) y la programación estratégica de los posts. El objetivo es que la marca tenga una presencia activa y profesional sin que el cliente deba invertir tiempo en ello."
+      },
+      {
+        "q": "¿Cómo aseguran que el contenido de las redes sea coherente con la web?",
+        "a": "Gracias a nuestra estructura de equipo, el diseño UX de la web y la dirección de arte de las redes sociales nacen del mismo concepto creativo. Esto garantiza que la transición del usuario desde un post en Instagram hacia la landing page sea fluida, profesional y genere confianza inmediata."
+      },
+      {
+        "q": "¿Por qué es importante tener una web de alto rendimiento si ya tengo redes sociales?",
+        "a": "Las redes sociales son canales de captación, pero la web es vuestra propiedad digital donde ocurre la conversión. Desarrollamos sitios en Next.js para que, cuando un usuario haga clic en un link de vuestro perfil, la página cargue al instante y esté optimizada para cerrar la venta o captar el contacto."
+      }
+    ]
+  },
   "common": {
     "loading": "Cargando...",
     "error": "Error",
