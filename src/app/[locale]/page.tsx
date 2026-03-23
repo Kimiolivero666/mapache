@@ -1,4 +1,5 @@
 // app/page.tsx
+import ContactUs from "@/components/ContactUs/ContactUs";
 import Faq from "@/components/Faq/Faq";
 import FeaturedProjects from "@/components/FeaturedProjects/FeaturedProjects";
 import Hero from "@/components/Hero/Hero"; 
@@ -22,6 +23,7 @@ export default function Home() {
       <Testimonials />
       <TechStack />
       <Faq />
+      <ContactUs />
     </main>
   );
 }

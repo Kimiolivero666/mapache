@@ -89,8 +89,8 @@
     "items": [
       {
         "id": "1",
-        "name": "Rubén Nani",
-        "title": "Director, GCR Consulting",
+        "name": "Carla Cornejo",
+        "title": "Directora, GCR Consulting",
         "avatar": "RN",
         "quote": "Incredible work with the Strapi and Calendly integration. Now we manage all appointments automatically and I can edit my own texts without touching a line of code."
       },
@@ -129,62 +129,66 @@
     "titlePart2": "drive",
     "titlePart3": "your success"
   },
-  
   "Faq": {
-    "titlePart1": "Frequently Asked",
-    "titlePart2": "Questions",
+    "titlePart1": "Frequently",
+    "titlePart2": "Asked Questions",
     "items": [
       {
         "q": "What are the advantages of working with an integrated design and development team?",
-        "a": "As a direct team of Senior UX designers and Fullstack developers, we eliminate the communication silos found in large agencies. This ensures that creative vision and technical feasibility work together from day one."
+        "a": "By being a direct team of senior UX design and fullstack development, we eliminate the communication silos of large agencies. This ensures that creative vision and technical feasibility walk together from day one."
       },
       {
         "q": "Why do you use Next.js instead of WordPress?",
-        "a": "For high-performance projects, Next.js offers superior loading speeds, better technical SEO, and security that WordPress cannot match. It’s the technology used by companies like TikTok or Twitch."
+        "a": "For high-performance projects, Next.js offers superior loading speed, better technical SEO, and security that WordPress cannot match. It's the technology used by companies like TikTok or Twitch."
       },
       {
         "q": "Do you create exact replicas of Figma designs?",
-        "a": "Yes. Our process guarantees total fidelity. By mastering both design and development, we ensure that every animation, spacing, and typography is translated into code exactly as approved."
+        "a": "Yes. Our process guarantees total fidelity. By mastering both design and development, we ensure that every animation, spacing, and typography translates to code exactly as approved."
       },
       {
-        "q": "Will the site be easy to manage myself?",
-        "a": "Absolutely. We integrate modern CMS platforms like Strapi or Sanity so you can edit text and images without touching a single line of code."
+        "q": "Will the site be self-manageable?",
+        "a": "Completely. We integrate modern CMS like Strapi or Sanity so you can edit texts and images without touching a single line of code."
       },
       {
         "q": "Are your websites optimized for mobile devices?",
-        "a": "Mobile-First design is our standard. We ensure a flawless user experience on smartphones and tablets, maintaining smooth animations and fast loading speeds across all devices."
+        "a": "Mobile-First design is our standard. We ensure an impeccable user experience on smartphones and tablets, maintaining animation fluidity and loading speed on any device."
       },
       {
-        "q": "Can external tools like payment gateways or calendars be integrated?",
-        "a": "Yes, we have experience integrating third-party APIs like Stripe, Calendly, or marketing automation platforms, ensuring the web becomes a functional tool for your business."
+        "q": "Is it possible to integrate external tools like payment gateways or calendars?",
+        "a": "Yes, we have experience integrating third-party APIs like Stripe, Calendly, or marketing automation platforms, ensuring the web becomes an operational tool for the business."
       },
       {
         "q": "What happens once the website is published?",
-        "a": "We don't disappear after the launch. We offer a warranty period and ongoing support to resolve any doubts, along with maintenance plans to keep technology and security up to date."
+        "a": "We don't disappear after launch. We offer a warranty period and support to resolve doubts, plus maintenance plans to keep technology and security always up to date."
       },
       {
-        "q": "How do you integrate social media strategy and video into the web?",
-        "a": "We design the website as the core of a digital ecosystem. We create interfaces optimized for social media traffic to facilitate conversion, integrating visual content and professional video with total consistency."
+        "q": "How do you integrate social media and video strategy into the website?",
+        "a": "We design the web as the core of a digital ecosystem. We create interfaces optimized to receive traffic from social media and facilitate conversion, integrating visual content and professional video with total coherence."
       },
       {
-        "q": "How do you handle technical SEO in your developments?",
-        "a": "Unlike visual builders, our custom development allows total control over site structure, metadata, and speed—factors that Google prioritizes for search engine rankings."
+        "q": "How do you manage technical SEO in your developments?",
+        "a": "Unlike visual builders, our custom development allows total control over site structure, metadata, and speed—factors that Google prioritizes to rank websites in top results."
       },
       {
         "q": "What does the social media management and strategy service include?",
-        "a": "We offer a comprehensive solution ranging from defining content pillars to visual creation (design and video) and strategic post scheduling. The goal is a professional brand presence without requiring your time."
+        "a": "We offer a comprehensive solution ranging from defining content pillars and tone of voice, to visual creation (design and video) and strategic post scheduling. The goal is for the brand to have an active and professional presence without the client needing to invest time in it."
       },
       {
-        "q": "How do you ensure social media content is consistent with the website?",
-        "a": "Thanks to our team structure, the web's UX design and social media art direction stem from the same creative concept. This guarantees a seamless transition from an Instagram post to the landing page."
+        "q": "How do you ensure social media content is coherent with the website?",
+        "a": "Thanks to our team structure, the web's UX design and social media art direction are born from the same creative concept. This ensures the user's transition from an Instagram post to the landing page is fluid, professional, and generates immediate trust."
       },
       {
-        "q": "Why is a high-performance website important if I already have social media?",
-        "a": "Social media is for attraction, but the website is your digital property where conversion happens. We develop in Next.js so that when a user clicks your link, the page loads instantly to close the sale or capture the lead."
+        "q": "Why is it important to have a high-performance website if I already have social media?",
+        "a": "Social media are acquisition channels, but the website is your digital property where conversion happens. We develop sites in Next.js so that when a user clicks a link from your profile, the page loads instantly and is optimized to close the sale or capture the contact."
       }
     ]
   },
-
+  "ContactUs": {
+    "readyTo": "Ready to",
+    "work": "work",
+    "withUs": "with us",
+    "getStarted": "Get Started"
+  },
   "common": {
     "loading": "Loading...",
     "error": "Error",

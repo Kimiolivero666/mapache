@@ -89,8 +89,8 @@
     "items": [
       {
         "id": "1",
-        "name": "Rubén Nani",
-        "title": "Director, GCR Gestoría",
+        "name": "Carla Cornejo",
+        "title": "Directora, GCR Gestoría",
         "avatar": "RN",
         "quote": "Increíble trabajo con la integración de Strapi y Calendly. Ahora gestionamos todas las citas automáticamente y puedo editar mis propios textos sin tocar una línea de código."
       },
@@ -182,6 +182,12 @@
         "a": "Las redes sociales son canales de captación, pero la web es vuestra propiedad digital donde ocurre la conversión. Desarrollamos sitios en Next.js para que, cuando un usuario haga clic en un link de vuestro perfil, la página cargue al instante y esté optimizada para cerrar la venta o captar el contacto."
       }
     ]
+  },
+  "ContactUs": {
+    "readyTo": "¿Listo para",
+    "work": "trabajar",
+    "withUs": "con nosotros?",
+    "getStarted": "Empezar"
   },
   "common": {
     "loading": "Cargando...",

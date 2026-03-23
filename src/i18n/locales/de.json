@@ -89,8 +89,8 @@
     "items": [
       {
         "id": "1",
-        "name": "Rubén Nani",
-        "title": "Direktor, GCR Consulting",
+        "name": "Carla Cornejo",
+        "title": "Direktora, GCR Consulting",
         "avatar": "RN",
         "quote": "Unglaubliche Arbeit mit der Strapi- und Calendly-Integration. Jetzt verwalten wir alle Termine automatisch und ich kann meine eigenen Texte bearbeiten, ohne eine Zeile Code zu berühren."
       },
@@ -129,62 +129,66 @@
     "titlePart2": "deinen Erfolg",
     "titlePart3": "vorantreiben"
   },
-  
   "Faq": {
     "titlePart1": "Häufige",
     "titlePart2": "Fragen",
     "items": [
       {
-        "q": "Welche Vorteile bietet die Zusammenarbeit mit einem integrierten Design- und Entwicklungsteam?",
-        "a": "Als Team aus Senior UX-Designern und Fullstack-Entwicklern eliminieren wir die Kommunikationsbarrieren großer Agenturen. Dies garantiert, dass kreative Vision und technische Machbarkeit vom ersten Tag an Hand in Hand gehen."
+        "q": "Was sind die Vorteile der Arbeit mit einem integrierten Design- und Entwicklungsteam?",
+        "a": "Als direktes Team aus Senior-UX-Design und Fullstack-Entwicklung eliminieren wir die Kommunikationssilos großer Agenturen. Dies stellt sicher, dass kreative Vision und technische Machbarkeit von Anfang an Hand in Hand gehen."
       },
       {
         "q": "Warum verwenden Sie Next.js anstelle von WordPress?",
-        "a": "Für Hochleistungsprojekte bietet Next.js überlegene Ladegeschwindigkeiten, besseres technisches SEO und eine Sicherheit, die WordPress nicht erreichen kann. Es ist die Technologie, die von Unternehmen wie TikTok oder Twitch genutzt wird."
+        "a": "Für Hochleistungsprojekte bietet Next.js überlegene Ladegeschwindigkeit, besseres technisches SEO und Sicherheit, die WordPress nicht entsprechen kann. Es ist die Technologie, die von Unternehmen wie TikTok oder Twitch verwendet wird."
       },
       {
-        "q": "Erstellen Sie exakte Nachbildungen von Figma-Designs?",
-        "a": "Ja. Unser Prozess garantiert absolute Design-Treue. Da wir sowohl Design als auch Entwicklung beherrschen, stellen wir sicher, dass jede Animation, jeder Abstand und jede Typografie exakt wie genehmigt in den Code übertragen wird."
+        "q": "Erstellen Sie exakte Repliken von Figma-Designs?",
+        "a": "Ja. Unser Prozess garantiert totale Treue. Durch die Beherrschung sowohl von Design als auch Entwicklung stellen wir sicher, dass jede Animation, jeder Abstand und jede Typografie genau wie genehmigt in Code übersetzt wird."
       },
       {
-        "q": "Kann ich die Website selbst verwalten?",
-        "a": "Absolut. Wir integrieren moderne CMS wie Strapi oder Sanity, sodass Sie Texte und Bilder bearbeiten können, ohne eine einzige Zeile Code anrühren zu müssen."
+        "q": "Wird die Seite selbstverwaltbar sein?",
+        "a": "Vollständig. Wir integrieren moderne CMS wie Strapi oder Sanity, damit Sie Texte und Bilder bearbeiten können, ohne eine einzige Codezeile zu berühren."
       },
       {
-        "q": "Sind Ihre Websites für Mobilgeräte optimiert?",
-        "a": "Mobile-First-Design ist unser Standard. Wir stellen sicher, dass die Benutzererfahrung auf Smartphones und Tablets makellos ist, wobei die Flüssigkeit der Animationen und schnelle Ladezeiten auf jedem Gerät erhalten bleiben."
+        "q": "Sind Ihre Websites für mobile Geräte optimiert?",
+        "a": "Mobile-First-Design ist unser Standard. Wir sorgen für ein makelloses Benutzererlebnis auf Smartphones und Tablets und erhalten die Animationsfluidität und Ladegeschwindigkeit auf jedem Gerät."
       },
       {
         "q": "Ist es möglich, externe Tools wie Zahlungsgateways oder Kalender zu integrieren?",
-        "a": "Ja, wir haben Erfahrung in der Integration von Drittanbieter-APIs wie Stripe, Calendly oder Marketing-Automatisierungsplattformen, um sicherzustellen, dass die Website zu einem operativen Werkzeug für Ihr Unternehmen wird."
+        "a": "Ja, wir haben Erfahrung in der Integration von Drittanbieter-APIs wie Stripe, Calendly oder Marketing-Automatisierungsplattformen und stellen sicher, dass die Website zu einem betrieblichen Tool für das Geschäft wird."
       },
       {
-        "q": "Was passiert, wenn die Website veröffentlicht ist?",
-        "a": "Wir verschwinden nicht nach dem Launch. Wir bieten eine Garantiezeit und Begleitung bei Fragen sowie Wartungspläne, damit Technologie und Sicherheit immer auf dem neuesten Stand sind."
+        "q": "Was passiert, sobald die Website veröffentlicht ist?",
+        "a": "Wir verschwinden nicht nach dem Launch. Wir bieten eine Garantiezeit und Unterstützung zur Lösung von Zweifeln sowie Wartungspläne, um Technologie und Sicherheit immer auf dem neuesten Stand zu halten."
       },
       {
-        "q": "Wie integrieren Sie Social-Media-Strategie und Video in die Website?",
-        "a": "Wir entwerfen die Website als Kern eines digitalen Ökosystems. Wir erstellen Schnittstellen, die für Social-Media-Traffic optimiert sind, um die Konversion zu erleichtern, und integrieren visuelle Inhalte und professionelle Videos mit totaler Kohärenz."
+        "q": "Wie integrieren Sie Social-Media- und Videostrategie in die Website?",
+        "a": "Wir gestalten die Website als Kern eines digitalen Ökosystems. Wir erstellen Schnittstellen, die für den Empfang von Traffic aus sozialen Medien optimiert sind und die Konversion erleichtern, und integrieren visuelle Inhalte und professionelles Video mit totaler Kohärenz."
       },
       {
-        "q": "Wie gehen Sie mit technischem SEO in Ihren Entwicklungen um?",
-        "a": "Im Gegensatz zu visuellen Baukastensystemen ermöglicht unsere maßgeschneiderte Entwicklung die volle Kontrolle über die Seitenstruktur, Metadaten und Geschwindigkeit – Faktoren, die Google bei der Positionierung priorisiert."
+        "q": "Wie verwalten Sie technisches SEO in Ihren Entwicklungen?",
+        "a": "Im Gegensatz zu visuellen Buildern ermöglicht unsere maßgeschneiderte Entwicklung totale Kontrolle über Site-Struktur, Metadaten und Geschwindigkeit – Faktoren, die Google priorisiert, um Websites in Top-Ergebnissen zu ranken."
       },
       {
-        "q": "Was beinhaltet der Service für Social-Media-Management und Strategie?",
-        "a": "Wir bieten eine ganzheitliche Lösung, die von der Definition der Content-Säulen bis zur visuellen Erstellung (Design und Video) und der strategischen Planung reicht. Ziel ist eine aktive und professionelle Markenpräsenz, ohne dass Sie Zeit investieren müssen."
+        "q": "Was umfasst der Service für Social-Media-Management und -strategie?",
+        "a": "Wir bieten eine umfassende Lösung von der Definition von Content-Pfeilern und Tone-of-Voice bis zur visuellen Erstellung (Design und Video) und strategischen Post-Planung. Das Ziel ist, dass die Marke eine aktive und professionelle Präsenz hat, ohne dass der Client Zeit investieren muss."
       },
       {
-        "q": "Wie stellen Sie sicher, dass Social-Media-Inhalte mit der Website kohärent sind?",
-        "a": "Durch unsere Teamstruktur entstehen das UX-Design der Website und die Art Direction der sozialen Netzwerke aus demselben kreativen Konzept. Dies garantiert einen nahtlosen Übergang vom Instagram-Post zur Landingpage."
+        "q": "Wie stellen Sie sicher, dass Social-Media-Content mit der Website kohärent ist?",
+        "a": "Dank unserer Teamstruktur entstehen das UX-Design der Website und die Art Direction der sozialen Medien aus dem gleichen kreativen Konzept. Dies stellt sicher, dass der Übergang des Benutzers von einem Instagram-Post zur Landing Page fließend, professionell ist und sofortiges Vertrauen generiert."
       },
       {
-        "q": "Warum ist eine Hochleistungs-Website wichtig, wenn ich bereits soziale Netzwerke habe?",
-        "a": "Soziale Netzwerke sind Kanäle zur Kundengewinnung, aber die Website ist Ihr digitales Eigentum, auf dem die Konversion stattfindet. Mit Next.js laden Seiten sofort, um den Verkauf abzuschließen oder den Kontakt zu sichern."
+        "q": "Warum ist es wichtig, eine Hochleistungs-Website zu haben, wenn ich bereits soziale Medien habe?",
+        "a": "Soziale Medien sind Akquisekanäle, aber die Website ist Ihr digitales Eigentum, wo die Konversion stattfindet. Wir entwickeln Sites in Next.js, damit, wenn ein Benutzer auf einen Link aus Ihrem Profil klickt, die Seite sofort lädt und für den Abschluss des Verkaufs oder die Kontaktaufnahme optimiert ist."
       }
     ]
   },
-
+  "ContactUs": {
+    "readyTo": "Bereit zu",
+    "work": "arbeiten",
+    "withUs": "mit uns?",
+    "getStarted": "Loslegen"
+  },
   "common": {
     "loading": "Wird geladen...",
     "error": "Fehler",
