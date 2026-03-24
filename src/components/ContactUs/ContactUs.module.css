@@ -1,10 +1,10 @@
 .section {
   background-color: var(--negro);
-  padding: 110px 0; /* Remove horizontal padding to allow image to touch edge */
-  min-height: 85vh; /* Un poco más de altura mínima */
+  padding: 100px 40px; /* Añadir padding horizontal para el título */
+  min-height: 85vh;
   display: flex;
   align-items: center;
-  overflow: visible; /* Allow image to extend beyond */
+  overflow: visible;
 }
 
 .container {
@@ -118,7 +118,6 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-right: -20px;
 }
 
 .contactImage {
@@ -133,15 +132,59 @@
   .grid {
     grid-template-columns: 1fr;
     text-align: center;
-    gap: 70px;
+    gap: 40px;
   }
+  
   .textContent {
     align-items: center;
   }
+  
   .buttonActionContainer {
     justify-content: center;
   }
+  
   .imageWrapper {
     justify-content: center;
+    margin-right: 0;
+  }
+  
+  .contactImage {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Fix para 1316px y otros breakpoints */
+@media (max-width: 1400px) {
+  .grid {
+    gap: 50px;
+  }
+  
+  .imageWrapper {
+    justify-content: center;
+  }
+  
+  .contactImage {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+/* Fix específico para 1159px */
+@media (max-width: 1200px) {
+  .grid {
+    gap: 40px;
+  }
+  
+  .imageWrapper {
+    justify-content: center;
+    padding: 0 10px;
+  }
+  
+  .contactImage {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
   }
 }
