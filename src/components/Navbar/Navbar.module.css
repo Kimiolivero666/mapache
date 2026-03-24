@@ -239,3 +239,31 @@
     gap: 2rem;
   }
 }
+
+/* Fix específico para 1129px y resoluciones similares */
+@media (max-width: 1200px) {
+  .header {
+    padding: 0 3%;
+  }
+  
+  .navLinks {
+    gap: 1.8rem;
+  }
+  
+  .navLinks a {
+    font-size: 0.9rem;
+  }
+  
+  .desktopRight {
+    gap: 1rem;
+  }
+  
+  .languageBtn {
+    padding: 0.4rem 1rem;
+    font-size: 0.85rem;
+  }
+  
+  .instagramIcon {
+    font-size: 0.9rem;
+  }
+}

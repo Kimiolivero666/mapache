@@ -2,6 +2,7 @@
 import ContactUs from "@/components/ContactUs/ContactUs";
 import Faq from "@/components/Faq/Faq";
 import FeaturedProjects from "@/components/FeaturedProjects/FeaturedProjects";
+import Footer from "@/components/Footer/Footer";
 import Hero from "@/components/Hero/Hero"; 
 import MethodSection from "@/components/MethodSection/MethodSection";
 import Services from "@/components/Services/Services";
@@ -16,14 +17,15 @@ export default function Home() {
     */
     <main style={{ position: 'relative' }}> 
       <Hero />
-      <Services />
-      <FeaturedProjects />
-      <MethodSection />
+      <div id="services"><Services /></div>
+      <div id="projects"><FeaturedProjects /></div>
+      <div id="about"><MethodSection /></div>
       <WhyNext />
       <Testimonials />
       <TechStack />
       <Faq />
-      <ContactUs />
+      <div id="contact"><ContactUs /></div>
+      <Footer />
     </main>
   );
 }

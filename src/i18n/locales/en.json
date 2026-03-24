@@ -3,6 +3,7 @@
     "home": "Home",
     "about": "About",
     "services": "Services",
+    "projects": "Projects",
     "contact": "Contact",
     "language": "Language",
     "getStarted": "Get Started"
@@ -188,6 +189,19 @@
     "work": "work",
     "withUs": "with us",
     "getStarted": "Get Started"
+  },
+  "Footer": {
+    "description": "We create exceptional digital experiences that drive your business towards success. Custom web development, UI/UX design, and innovative tech solutions.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact",
+    "webDevelopment": "Web Development",
+    "uiDesign": "UI/UX Design",
+    "cmsIntegration": "CMS Integration",
+    "consulting": "Consulting",
+    "rights": "All rights reserved."
   },
   "common": {
     "loading": "Loading...",

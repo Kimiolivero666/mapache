@@ -33,8 +33,10 @@ const Navbar = () => {
 
   const links = [
     { name: t('home'), href: '/' },
-    { name: t('services'), href: '/servicios' },
-    { name: t('contact'), href: '/faq' },
+    { name: t('services'), href: '#services' },
+    { name: t('projects'), href: '#projects' },
+    { name: t('about'), href: '#about' },
+    { name: t('contact'), href: '#contact' },
   ];
 
   return (

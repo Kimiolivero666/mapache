@@ -1,8 +1,9 @@
 {
   "navbar": {
     "home": "Inicio",
-    "about": "Acerca de",
+    "about": "Nosotros",
     "services": "Servicios",
+    "projects": "Proyectos",
     "contact": "Contacto",
     "language": "Idioma",
     "getStarted": "Empezar"
@@ -188,6 +189,19 @@
     "work": "trabajar",
     "withUs": "con nosotros?",
     "getStarted": "Empezar"
+  },
+  "Footer": {
+    "description": "Creamos experiencias digitales excepcionales que impulsan tu negocio hacia el éxito. Desarrollo web a medida, diseño UX/UI y soluciones tecnológicas innovadoras.",
+    "quickLinks": "Enlaces rápidos",
+    "services": "Servicios",
+    "projects": "Proyectos",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "webDevelopment": "Desarrollo Web",
+    "uiDesign": "Diseño UI/UX",
+    "cmsIntegration": "Integración CMS",
+    "consulting": "Consultoría",
+    "rights": "Todos los derechos reservados."
   },
   "common": {
     "loading": "Cargando...",

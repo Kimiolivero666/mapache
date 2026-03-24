@@ -1,8 +1,9 @@
 {
   "navbar": {
-    "home": "Startseite",
+    "home": "Start",
     "about": "Über uns",
     "services": "Dienstleistungen",
+    "projects": "Projekte",
     "contact": "Kontakt",
     "language": "Sprache",
     "getStarted": "Loslegen"
@@ -188,6 +189,19 @@
     "work": "arbeiten",
     "withUs": "mit uns?",
     "getStarted": "Loslegen"
+  },
+  "Footer": {
+    "description": "Wir schaffen herausragende digitale Erlebnisse, die Ihr Unternehmen zum Erfolg führen. Maßgeschneiderte Webentwicklung, UI/UX-Design und innovative Technologielösungen.",
+    "quickLinks": "Schnelllinks",
+    "services": "Dienstleistungen",
+    "projects": "Projekte",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "webDevelopment": "Webentwicklung",
+    "uiDesign": "UI/UX-Design",
+    "cmsIntegration": "CMS-Integration",
+    "consulting": "Beratung",
+    "rights": "Alle Rechte vorbehalten."
   },
   "common": {
     "loading": "Wird geladen...",

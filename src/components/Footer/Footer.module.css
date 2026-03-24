@@ -1,0 +1,247 @@
+.footer {
+  background-color: var(--negro);
+  color: var(--blanco);
+  padding: 80px 20px 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
+/* Brand Section */
+.brand {
+  max-width: 400px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  border-radius: 8px;
+  object-fit: contain !important;
+}
+
+.brandName {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--naranja);
+  font-family: 'Inter', sans-serif;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+}
+
+/* Links Sections */
+.links, .services, .contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.links h3, .services h3, .contact h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--naranja);
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.links ul, .services ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.links li, .services li {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.8);
+  transition: color 0.3s ease;
+}
+
+.links li:hover, .services li:hover {
+  color: var(--naranja);
+}
+
+.links a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: var(--naranja);
+}
+
+/* Contact Section */
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.contactIcon {
+  color: var(--naranja);
+  font-size: 1rem;
+  min-width: 16px;
+}
+
+/* Bottom Section */
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.socialLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.socialLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--blanco);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.socialLink:hover {
+  background-color: var(--naranja);
+  color: var(--negro);
+  transform: translateY(-2px);
+}
+
+.copyright {
+  text-align: right;
+}
+
+.copyright p {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  
+  .brand {
+    grid-column: span 2;
+    max-width: 100%;
+  }
+  
+  .bottom {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+  
+  .socialLinks {
+    justify-content: center;
+  }
+  
+  .copyright {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 60px 20px 30px;
+  }
+  
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    text-align: center;
+  }
+  
+  .brand {
+    grid-column: span 1;
+  }
+  
+  .logoContainer {
+    justify-content: center;
+  }
+  
+  .contactInfo {
+    align-items: center;
+  }
+  
+  .socialLinks {
+    gap: 15px;
+  }
+  
+  .socialLink {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 40px 15px 20px;
+  }
+  
+  .grid {
+    gap: 25px;
+  }
+  
+  .brandName {
+    font-size: 1.3rem;
+  }
+  
+  .description {
+    font-size: 0.95rem;
+  }
+  
+  .socialLinks {
+    gap: 12px;
+  }
+  
+  .socialLink {
+    width: 32px;
+    height: 32px;
+    font-size: 0.9rem;
+  }
+}
