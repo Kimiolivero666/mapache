@@ -83,7 +83,9 @@ export default function Footer() {
             <motion.div className={styles.contactInfo} {...fadeInProps} transition={{ ...fadeInProps.transition, delay: 0.4 }}>
               <div className={styles.contactItem}>
                 <FaEnvelope className={styles.contactIcon} />
-                <span>hola@mapache.dev</span>
+                <a href="mailto:hello@mapachestudio.com" className={styles.contactLink}>
+                  hello@mapachestudio.com
+                </a>
               </div>
               <div className={styles.contactItem}>
                 <FaPhone className={styles.contactIcon} />
