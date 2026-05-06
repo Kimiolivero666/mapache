@@ -27,6 +27,7 @@
       "automation": { "title": "Automation", "description": "Appointment management with Calendly and automated workflows that save administrative time." },
       "branding": { "title": "Unforgettable Brand DNA", "description": "Complete visual systems, from logo to brand manual, that define your essence." },
       "social": { "title": "Visual & Social Strategy", "description": "Consistent identity and high-impact ads. We design social media that builds authority and boosts sales." },
+      "redesSociales": { "title": "Social Media Management", "description": "Complete social media profile management, content creation and posting strategy to maintain an active and professional digital presence." },
       "seo": { "title": "Performance & SEO", "description": "Deep technical optimization so your website loads instantly and climbs search engine rankings." }
     }
   },
@@ -39,7 +40,7 @@
       "aseguradora": { "title": "Nani Insurance", "type": "React / TypeScript / CSS" },
       "restaurante": { "title": "Chimichurri Restaurant", "type": "Landing Page / Framer Motion" },
       "agencia": { "title": "Litte Agency", "type": "Digital Strategy / Branding / Web Design" },
-      "community": { "title": "Community Site", "type": "Web Design" },
+      "community": { "title": "Bazar Salva", "type": "Corporate Branding / Social Media" },
       "nft": { "title": "NFT Marketplace", "type": "Web Design" }
     }
   },

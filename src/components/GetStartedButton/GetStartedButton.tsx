@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/routing';
 import styles from './GetStartedButton.module.css';
 
 const GetStartedButton = () => {
@@ -14,9 +13,9 @@ const GetStartedButton = () => {
       animate={{ opacity: 1 }}
       transition={{ delay: 0.2 }}
     >
-      <Link href="/contacto" className={styles.getStartedBtn}>
+      <a href="mailto:hello@mapachestudio.com" className={styles.getStartedBtn}>
         {t('contact') || 'contacto'}
-      </Link>
+      </a>
     </motion.div>
   );
 };

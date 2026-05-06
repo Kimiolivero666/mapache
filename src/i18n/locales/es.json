@@ -27,6 +27,7 @@
       "automation": { "title": "Automatización", "description": "Gestión de citas con Calendly y flujos de trabajo automatizados que ahorran tiempo administrativo." },
       "branding": { "title": "DNA de Marca Inolvidable", "description": "Sistemas visuales completos, desde el logotipo hasta el manual de marca, que definen tu esencia." },
       "social": { "title": "Estrategia Visual y Social", "description": "Identidad coherente y anuncios de alto impacto. Diseñamos redes sociales que construyen autoridad y multiplican tus ventas." },
+      "redesSociales": { "title": "Gestión de Redes Sociales", "description": "Administración completa de perfiles sociales, creación de contenido y estrategia de publicación para mantener una presencia digital activa y profesional." },
       "seo": { "title": "Rendimiento y SEO", "description": "Optimización técnica profunda para que tu web cargue al instante y escale en los buscadores." }
     }
   },
@@ -39,7 +40,7 @@
       "aseguradora": { "title": "Nani Seguros", "type": "React / TypeScript / CSS" },
       "restaurante": { "title": "Restaurante Chimichurri", "type": "Landing Page / Framer Motion" },
       "agencia": { "title": "Agencia Litte", "type": "Estrategia Digital / Branding / Diseño Web" },
-      "community": { "title": "Sitio Comunitario", "type": "Diseño Web" },
+      "community": { "title": "Bazar Salva", "type": "Branding Corporativo / Redes Sociales" },
       "nft": { "title": "Mercado NFT", "type": "Diseño Web" }
     }
   },

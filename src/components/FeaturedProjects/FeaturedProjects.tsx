@@ -56,7 +56,10 @@ const FeaturedProjects = () => {
               imagePath = "/images/chimichurri.webp";
             } else if (key === 'agencia') {
               imagePath = "/images/little.webp";
-              
+            } else if (key === 'community') {
+              imagePath = "/images/Salva.png";
+            } else if (key === 'nft') {
+              imagePath = "/images/chimichurri.webp";
             } else {
               imagePath = `/images/${key}.png`;
             }

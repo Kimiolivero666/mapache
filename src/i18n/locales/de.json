@@ -27,6 +27,7 @@
       "automation": { "title": "Automatisierung", "description": "Terminverwaltung mit Calendly und automatisierte Arbeitsabläufe, die administrativen Aufwand sparen." },
       "branding": { "title": "Unvergessliches Marken-DNA", "description": "Vollständige visuelle Systeme, vom Logo bis zum Markenhandbuch, die Ihre Essenz definieren." },
       "social": { "title": "Visuelle und soziale Strategie", "description": "Kohärente Identität und hochwirksame Anzeigen. Wir gestalten soziale Medien, die Autorität aufbauen und Ihre Verkäufe vervielfachen." },
+      "redesSociales": { "title": "Social Media Management", "description": "Vollständige Verwaltung von Social-Media-Profilen, Content-Erstellung und Post-Strategie zur Aufrechterhaltung einer aktiven und professionellen Präsenz." },
       "seo": { "title": "Leistung und SEO", "description": "Tiefe technische Optimierung, damit Ihre Website sofort lädt und in Suchmaschinen skaliert." }
     }
   },
@@ -39,7 +40,7 @@
       "aseguradora": { "title": "Nani Seguros", "type": "React / TypeScript / CSS" },
       "restaurante": { "title": "Restaurant Chimichurri", "type": "Landing Page / Framer Motion" },
       "agencia": { "title": "Agentur Litte", "type": "Digitale Strategie / Branding / Webdesign" },
-      "community": { "title": "Community-Website", "type": "Webdesign" },
+      "community": { "title": "Bazar Salva", "type": "Corporate Branding / Social Media" },
       "nft": { "title": "NFT-Marktplatz", "type": "Webdesign" }
     }
   },

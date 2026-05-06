@@ -95,6 +95,7 @@ export async function generateMetadata({
     description: metadata.description,
     keywords: metadata.keywords,
     author: metadata.author,
+    metadataBase: new URL(`http://localhost:3000/${locale}`),
     icons: {
       icon: '/favicon.png',
       shortcut: '/favicon.png',
@@ -102,7 +103,7 @@ export async function generateMetadata({
     },
     openGraph: {
       ...metadata.openGraph,
-      url: `https://mapache.dev/${locale}`,
+      url: `http://localhost:3000/${locale}`,
       images: [
         {
           url: '/images/logo.png',
@@ -119,11 +120,11 @@ export async function generateMetadata({
       images: ['/images/logo.png'],
     },
     alternates: {
-      canonical: `https://mapache.dev/${locale}`,
+      canonical: `http://localhost:3000/${locale}`,
       languages: {
-        'es': 'https://mapache.dev/es',
-        'en': 'https://mapache.dev/en',
-        'de': 'https://mapache.dev/de',
+        'es': 'http://localhost:3000/es',
+        'en': 'http://localhost:3000/en',
+        'de': 'http://localhost:3000/de',
       },
     },
     robots: {

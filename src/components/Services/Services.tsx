@@ -23,7 +23,7 @@ const Services = () => {
   const serviceKeys = [
     'theme', 'custom', 'design', 
     'cms', 'ecommerce', 'automation',
-    'branding', 'social', 'seo'
+    'branding', 'social', 'seo', 'redesSociales'
   ] as const;
 
   const fadeInProps = {
@@ -64,9 +64,10 @@ const Services = () => {
             transition={{ ...fadeInProps.transition, delay: 0.2 }}
           >
             <p className={styles.subTitle}>{t('subTitle')}</p>
-            <button className={styles.contactBtn}>
+            <a href="mailto:hello@mapachestudio.com" className={styles.contactBtn}>
               {t('contactBtn')}
-            </button>
+            </a>
+
           </motion.div>
         </div>
 

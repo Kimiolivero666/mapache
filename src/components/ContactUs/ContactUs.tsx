@@ -52,13 +52,14 @@ export default function ContactUs() {
               transition={{ ...baseTransition, delay: 0.2 }}
             >
               {/* Botón CTA: Ahora solo contiene el texto */}
-              <motion.button 
+              <motion.a
+                href="mailto:hello@mapachestudio.com"
                 className={styles.ctaButton}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
                 {t('getStarted')}
-              </motion.button>
+              </motion.a>
 
               {/* Contenedor del Logo: Ahora va por ABAJO del botón */}
               <div className={styles.logoWrapper}>

@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 import { IBM_Plex_Sans } from 'next/font/google';
-import { routing } from '@/i18n/routing';
 import './globals.css';
+
 
 const ibmPlex = IBM_Plex_Sans({
   weight: ['300', '400', '500', '600', '700'],

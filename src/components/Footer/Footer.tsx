@@ -89,7 +89,7 @@ export default function Footer() {
               </div>
               <div className={styles.contactItem}>
                 <FaPhone className={styles.contactIcon} />
-                <span>+34 600 000 000</span>
+                <span>+34 62 355 01 30</span>
               </div>
               <div className={styles.contactItem}>
                 <FaMapMarkerAlt className={styles.contactIcon} />

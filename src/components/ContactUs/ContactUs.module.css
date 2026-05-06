@@ -104,6 +104,10 @@
   justify-content: center;
   text-align: center;
   z-index: 5; /* Asegura que el botón esté por debajo del logo */
+  text-decoration: none !important;
+  text-decoration-line: none !important;
+  text-decoration-style: solid !important;
+  text-decoration-color: transparent !important;
 }
 
 .imageContent {
