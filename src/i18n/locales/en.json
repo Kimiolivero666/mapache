@@ -36,11 +36,35 @@
     "titleHighlight": "projects",
     "subTitle": "Explore a selection of our most recent work. From animated landing pages to complex systems.",
     "items": {
-      "gestoria": { "title": "GCR Consulting", "type": "Next.js / Strapi / Calendly" },
-      "aseguradora": { "title": "Nani Insurance", "type": "React / TypeScript / CSS" },
+      "gestoria": { "title": "GCR Consulting", "type": "Next.js / Strapi / Calendly", "links": [
+        {
+          "text": "Visit website",
+          "url": "https://xn--asesora-legal-gcr-ivb.com/"
+        }
+      ]
+    },
+      "aseguradora": { "title": "Nani Insurance", "type": "React / TypeScript / CSS", "links": [
+        {
+          "text": "Visit website",
+          "url": "https://rubennaniseguros.com/"
+        }
+      ]
+    },
       "nft": { "title": "Top Line", "type": "CONTENT STRATEGY / SOCIAL MEDIA / GRAPHIC DESIGN" },
-      "restaurante": { "title": "Chimichurri Restaurant", "type": "Landing Page / Framer Motion" },
-      "agencia": { "title": "Litte Agency", "type": "Digital Strategy / Branding / Web Design" },
+      "restaurante": { "title": "Chimichurri Restaurant", "type": "Landing Page / Framer Motion", "links": [
+        {
+          "text": "Visit website",
+          "url": "https://sweet-yeot-93b750.netlify.app/"
+        }
+      ]
+    },
+      "agencia": { "title": "Litte Agency", "type": "Digital Strategy / Branding / Web Design", "links": [
+        {
+          "text": "Visit website",
+          "url": "https://scintillating-clafoutis-f72b00.netlify.app/"
+        }
+      ]
+    },
       "community": { "title": "Bazar Salva", "type": "Corporate Branding / Social Media" },
       "nft2": { "title": "NFT Marketplace", "type": "Web Design" }
     }

@@ -36,10 +36,34 @@
     "titleHighlight": "Projekte",
     "subTitle": "Entdecken Sie eine Auswahl unserer neuesten Arbeiten. Von animierten Landing Pages bis hin zu komplexen Systemen.",
     "items": {
-      "gestoria": { "title": "Gestoría GCR", "type": "Next.js / Strapi / Calendly" },
-      "aseguradora": { "title": "Nani Versicherung", "type": "React / TypeScript / CSS" },
-      "restaurante": { "title": "Restaurant Chimichurri", "type": "Landing Page / Framer Motion" },
-      "agencia": { "title": "Agentur Litte", "type": "Digitale Strategie / Branding / Webdesign" },
+      "gestoria": { "title": "GCR Ausländerberatung", "type": "Next.js / Strapi / Calendly", "links": [
+        {
+          "text": "Webseite besuchen",
+          "url": "https://xn--asesora-legal-gcr-ivb.com/"
+        }
+      ]
+    },
+      "aseguradora": { "title": "Nani Versicherung", "type": "React / TypeScript / CSS", "links": [
+        {
+          "text": "Webseite besuchen",
+          "url": "https://rubennaniseguros.com/"
+        }
+      ]
+    },
+      "restaurante": { "title": "Restaurant Chimichurri", "type": "Landing Page / Framer Motion", "links": [
+        {
+          "text": "Webseite besuchen",
+          "url": "https://sweet-yeot-93b750.netlify.app/"
+        }
+      ]
+    },
+      "agencia": { "title": "Agentur Litte", "type": "Digitale Strategie / Branding / Webdesign", "links": [
+        {
+          "text": "Webseite besuchen",
+          "url": "https://scintillating-clafoutis-f72b00.netlify.app/"
+        }
+      ]
+    },
       "community": { "title": "Bazar Salva", "type": "Corporate Branding / Social Media" },
       "nft": { "title": "Top Line", "type": "CONTENT STRATEGIE / SOCIAL MEDIA / GRAFIKDESIGN" }
     }

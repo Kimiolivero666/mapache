@@ -111,6 +111,30 @@
   transition: transform 0.5s cubic-bezier(0.2, 1, 0.3, 1);
 }
 
+/* Links container */
+.projectLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.projectLinkIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.projectLinkIcon:hover .cardArrow {
+  transform: scale(1.1);
+  color: var(--naranja);
+}
+
 /* Efecto hover opcional para darle vida */
 .projectCard:hover .projectImage {
   transform: scale(1.65) translateY(3%);

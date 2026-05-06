@@ -6,6 +6,11 @@ import Image from 'next/image';
 import styles from './FeaturedProjects.module.css';
 import { LuArrowUpRight } from "react-icons/lu";
 
+interface ProjectLink {
+  text: string;
+  url: string;
+}
+
 const FeaturedProjects = () => {
   const t = useTranslations('projects');
 
@@ -43,26 +48,26 @@ const FeaturedProjects = () => {
 
         <div className={styles.grid}>
           {projectKeys.map((key, index) => {
-            // CORRECCIÓN CLAVE: Usamos la ruta /images/ que tienes en tu proyecto
-            // Y ajustamos los nombres para que coincidan con tus archivos
             let imagePath = "";
+            if (key === 'gestoria') imagePath = "/images/gestoria-gcr.webp";
+            else if (key === 'aseguradora') imagePath = "/images/Nani-Seguros.webp";
+            else if (key === 'restaurante') imagePath = "/images/chimichurri.webp";
+            else if (key === 'agencia') imagePath = "/images/little.webp";
+            else if (key === 'community') imagePath = "/images/Salva.png";
+            else if (key === 'nft') imagePath = "/images/Top-Line.png";
+            else imagePath = `/images/${key}.png`;
 
-            // Lógica de rutas optimizada
-            if (key === 'gestoria') {
-              imagePath = "/images/gestoria-gcr.webp";
-            } else if (key === 'aseguradora') {
-              imagePath = "/images/Nani-Seguros.webp";
-            } else if (key === 'restaurante') {
-              imagePath = "/images/chimichurri.webp";
-            } else if (key === 'agencia') {
-              imagePath = "/images/little.webp";
-            } else if (key === 'community') {
-              imagePath = "/images/Salva.png";
-            } else if (key === 'nft') {
-              imagePath = "/images/Top-Line.png";
-            } else {
-              imagePath = `/images/${key}.png`;
-            }
+            const links = (() => {
+              // Solo intentar obtener enlaces para proyectos que sabemos que los tienen
+              const projectsWithLinks = ['gestoria', 'aseguradora', 'restaurante', 'agencia'];
+              if (!projectsWithLinks.includes(key)) return undefined;
+              
+              try {
+                return t.raw(`items.${key}.links`) as ProjectLink[] | undefined;
+              } catch {
+                return undefined;
+              }
+            })();
 
             return (
               <motion.div
@@ -76,7 +81,7 @@ const FeaturedProjects = () => {
                 <div className={styles.imageWrapper}>
                   <Image
                     src={imagePath}
-                    alt={`${t(`items.${key}.title`)} - ${t(`items.${key}.type`)} project by MapacheStudio`}
+                    alt={t(`items.${key}.title`)}
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
                     priority={index < 2}
@@ -84,7 +89,18 @@ const FeaturedProjects = () => {
                     style={{ objectFit: 'contain', padding: '20px' }}
                   />
                   <div className={styles.hoverOverlay}>
-                    <LuArrowUpRight size={40} className={styles.cardArrow} />
+                    {Array.isArray(links) && links.length > 0 ? (
+                      <a
+                        href={links[0].url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.projectLinkIcon}
+                      >
+                        <LuArrowUpRight size={40} className={styles.cardArrow} />
+                      </a>
+                    ) : (
+                      <LuArrowUpRight size={40} className={styles.cardArrow} />
+                    )}
                   </div>
                 </div>
 
