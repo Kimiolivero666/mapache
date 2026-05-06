@@ -50,7 +50,7 @@ const Navbar = () => {
         <Link href="/" className={styles.logo}>
           <Image
             src="/images/mapache-logo.png"
-            alt="Mapache Logo"
+            alt="MapacheStudio Logo"
             width={180}
             height={40}
             priority

@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://mapachestudio.com/sitemap.xml
+
+# Allow specific directories
+Allow: /images/
+Allow: /_next/static/
+Allow: /favicon.ico
+
+# Block non-essential directories
+Disallow: /api/
+Disallow: /_next/image
+Disallow: /admin/
+Disallow: /temp/
+
+# Crawl delay (optional, for large sites)
+Crawl-delay: 1

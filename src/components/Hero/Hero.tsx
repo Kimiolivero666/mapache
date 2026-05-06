@@ -22,7 +22,7 @@ const Hero = () => {
  >
    <Image
      src="/images/logo.png"
-     alt=""
+     alt="MapacheStudio background logo"
      fill
      priority
      className={styles.bgImage}
@@ -58,7 +58,7 @@ const Hero = () => {
         >
           <Image
             src="/images/hero-work.jpg"
-            alt="Development work"
+            alt="MapacheStudio web development team working on Next.js and React projects"
             fill
             priority
             sizes="(max-width: 1024px) 100vw, 55vw"

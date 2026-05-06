@@ -65,7 +65,7 @@ export default function ContactUs() {
               <div className={styles.logoWrapper}>
                 <Image 
                   src="/images/logo.png" // Asegúrate que sea el logo blanco sin fondo
-                  alt="Mapache" 
+                  alt="MapacheStudio" 
                   width={50} 
                   height={35}
                   priority

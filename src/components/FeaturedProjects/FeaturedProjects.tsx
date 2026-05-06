@@ -59,7 +59,7 @@ const FeaturedProjects = () => {
             } else if (key === 'community') {
               imagePath = "/images/Salva.png";
             } else if (key === 'nft') {
-              imagePath = "/images/chimichurri.webp";
+              imagePath = "/images/Top-Line.png";
             } else {
               imagePath = `/images/${key}.png`;
             }
@@ -76,7 +76,7 @@ const FeaturedProjects = () => {
                 <div className={styles.imageWrapper}>
                   <Image
                     src={imagePath}
-                    alt={t(`items.${key}.title`)}
+                    alt={`${t(`items.${key}.title`)} - ${t(`items.${key}.type`)} project by MapacheStudio`}
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
                     priority={index < 2}

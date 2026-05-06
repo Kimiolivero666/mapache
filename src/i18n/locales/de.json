@@ -37,11 +37,11 @@
     "subTitle": "Entdecken Sie eine Auswahl unserer neuesten Arbeiten. Von animierten Landing Pages bis hin zu komplexen Systemen.",
     "items": {
       "gestoria": { "title": "Gestoría GCR", "type": "Next.js / Strapi / Calendly" },
-      "aseguradora": { "title": "Nani Seguros", "type": "React / TypeScript / CSS" },
+      "aseguradora": { "title": "Nani Versicherung", "type": "React / TypeScript / CSS" },
       "restaurante": { "title": "Restaurant Chimichurri", "type": "Landing Page / Framer Motion" },
       "agencia": { "title": "Agentur Litte", "type": "Digitale Strategie / Branding / Webdesign" },
       "community": { "title": "Bazar Salva", "type": "Corporate Branding / Social Media" },
-      "nft": { "title": "NFT-Marktplatz", "type": "Webdesign" }
+      "nft": { "title": "Top Line", "type": "CONTENT STRATEGIE / SOCIAL MEDIA / GRAFIKDESIGN" }
     }
   },
   "method": {

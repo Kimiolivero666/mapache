@@ -1,7 +1,7 @@
-'use client';
-
-import {redirect} from 'next/navigation';
+import { redirect } from 'next/navigation';
+import { routing } from '@/i18n/routing';
 
 export default function RootPage() {
-  redirect('/es');
+  // Redirect to default locale
+  redirect(`/${routing.defaultLocale}`);
 }

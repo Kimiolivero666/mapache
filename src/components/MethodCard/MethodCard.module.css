@@ -1,6 +1,6 @@
 /* Estenedor principal de la sección */
 .projectsSection {
-  background-color: #000000;
+  background-color: var(--negro);
   padding: 100px 0;
 }
 

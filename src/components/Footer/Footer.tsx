@@ -35,13 +35,13 @@ export default function Footer() {
               <div className={styles.logoContainer}>
                 <Image 
                   src="/images/logo.png" 
-                  alt="Mapache Logo" 
+                  alt="MapacheStudio Logo" 
                   width={40}
                   height={40}
                   className={styles.logo}
                   style={{ objectFit: 'contain' }}
                 />
-                <span className={styles.brandName}>Mapache</span>
+                <span className={styles.brandName}>MapacheStudio</span>
               </div>
               <p className={styles.description}>
                 {t('description')}
@@ -125,7 +125,7 @@ export default function Footer() {
             {...fadeInProps}
             transition={{ ...fadeInProps.transition, delay: 0.6 }}
           >
-            <p>&copy; 2024 Mapache. {t('rights')}</p>
+            <p>&copy; 2024 MapacheStudio. {t('rights')}</p>
           </motion.div>
         </div>
       </div>

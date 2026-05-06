@@ -1,23 +1,76 @@
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
 :root {
-  --blanco: #ffffff;
+  --blanco: #f4f9fc;
   --celeste: #1ba399;
   --naranja: #FF9500;
   --azul: #0f2a3f;
-  --celeste-oscuro:#627D98;
-  --negro:#1e1f24;
+  --celeste-oscuro: #627D98;
+  --negro: #1e1f24;
 }
 
-/* src/app/globals.css o cualquier .module.css */
+/* Estilos globales básicos */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-ibm-plex), sans-serif;
+  background-color: var(--negro);
+  color: var(--blanco);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+/* Estilos de texto */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: var(--blanco);
+}
+
+p {
+  margin-bottom: 1rem;
+  color: var(--blanco);
+}
+
+a {
+  color: var(--celeste);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--naranja);
+}
+
+/* Utilidades */
 .customTitle {
   font-family: var(--font-ibm-plex), sans-serif;
   font-weight: 700;
 }
 
+/* Scrollbar personalizado */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--negro);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--celeste);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--celeste-oscuro);
+}
