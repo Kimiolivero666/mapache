@@ -89,7 +89,7 @@ export default function WhyNext() {
               <div className={styles.iconWrapper}>
                 {reason.icon}
               </div>
-              <h3 className={styles.cardTitle}>
+              <h3 className={styles.card}>
                 {t(`reasons.${reason.id}.title`)}
               </h3>
               <p className={styles.cardText}>

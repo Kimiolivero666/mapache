@@ -63,10 +63,16 @@
   transition: all 0.3s ease;
 }
 
+
 .viewAllBtn:hover {
   background-color: var(--naranja);
   color: #000;
   transform: translateY(-3px);
+}
+
+.cardArrow {
+  color: var(--celeste);
+  transition: all 0.3s ease;
 }
 
 /* Grid y Cards (Mix A + B) */
