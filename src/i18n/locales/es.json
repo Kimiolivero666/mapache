@@ -64,8 +64,20 @@
         }
       ]
     },
-      "community": { "title": "Bazar Salva", "type": "Branding Corporativo / Redes Sociales" },
-      "nft": { "title": "Top Line", "type": "ESTRATEGIA DE CONTENIDOS / SOCIAL MEDIA / DISEÑO GRÁFICO" }
+      "community": { "title": "Bazar Salva", "type": "Branding Corporativo / Redes Sociales", "links": [
+        {
+          "text": "Visitar Instagram",
+          "url": "https://www.instagram.com/salva.bazar?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+        }
+      ]
+    },
+      "nft": { "title": "Top Line", "type": "ESTRATEGIA DE CONTENIDOS / SOCIAL MEDIA / DISEÑO GRÁFICO", "links": [
+        {
+          "text": "Visitar Instagram",
+          "url": "https://www.instagram.com/toplinearg?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+        }
+      ]
+    }
     }
   },
   "method": {

@@ -50,7 +50,13 @@
         }
       ]
     },
-      "nft": { "title": "Top Line", "type": "CONTENT STRATEGY / SOCIAL MEDIA / GRAPHIC DESIGN" },
+      "nft": { "title": "Top Line", "type": "CONTENT STRATEGY / SOCIAL MEDIA / GRAPHIC DESIGN", "links": [
+        {
+          "text": "Visit Instagram",
+          "url": "https://www.instagram.com/toplinearg?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+        }
+      ]
+    },
       "restaurante": { "title": "Chimichurri Restaurant", "type": "Landing Page / Framer Motion", "links": [
         {
           "text": "Visit website",
@@ -65,7 +71,13 @@
         }
       ]
     },
-      "community": { "title": "Bazar Salva", "type": "Corporate Branding / Social Media" },
+      "community": { "title": "Bazar Salva", "type": "Corporate Branding / Social Media", "links": [
+        {
+          "text": "Visit Instagram",
+          "url": "https://www.instagram.com/salva.bazar?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+        }
+      ]
+    },
       "nft2": { "title": "NFT Marketplace", "type": "Web Design" }
     }
   },

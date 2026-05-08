@@ -59,7 +59,7 @@ const FeaturedProjects = () => {
 
             const links = (() => {
               // Solo intentar obtener enlaces para proyectos que sabemos que los tienen
-              const projectsWithLinks = ['gestoria', 'aseguradora', 'restaurante', 'agencia'];
+              const projectsWithLinks = ['gestoria', 'aseguradora', 'restaurante', 'agencia', 'community', 'nft'];
               if (!projectsWithLinks.includes(key)) return undefined;
               
               try {
